@@ -1,0 +1,5 @@
+#!/bin/bash
+
+EXTERNAL=`xrandr | grep -i "HDMI1 disconnected"`
+if [ -z $EXTERNAL ]; do
+   echo "YES"

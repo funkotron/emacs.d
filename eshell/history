@@ -1,0 +1,47 @@
+ls
+cd src/
+ls
+cd tst
+ks
+ls
+mkdir clj
+mkdir cljs
+mv core.clj clj
+mkdir clj/tst
+mv clj/core.clj clj/tst/
+mkdir cljs/tst
+ls
+mv * ..
+c d,,.
+cd ../
+ls
+rm -rfv tst
+clear
+cls
+lein deps
+~/bin/lein
+/usr/local/bin/lein deps
+cd ../../
+cd tst/
+lein deps
+/usr/local/bin/lein deps
+/usr/local/bin/lein run
+/usr/local/bin/lein run
+/usr/local/bin/lein run
+/usr/local/bin/lein run
+/usr/local/bin/lein run
+/usr/local/bin/lein run
+/usr/local/bin/lein run
+/usr/local/bin/lein run
+/usr/local/bin/lein run
+lein deps
+/usr/local/bin/lein deps
+/usr/local/bin/lein install
+/usr/local/bin/lein install
+/usr/local/bin/lein install
+ls
+/usr/local/bin/lein install
+/usr/local/bin/lein install
+/usr/local/bin/lein install
+lein run
+vim ~/.emacs.d/init.el 

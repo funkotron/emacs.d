@@ -1,0 +1,70 @@
+(ns tshirt.core
+  (:use quil.core
+        [clojure.tools.logging :only [info]]
+        )
+  (:require  [clojure.tools.nrepl.server :as nrepl]
+))
+
+;; init
+(defn start-nrepl-server [port]
+  (info "Starting nrepl server on port" port)
+  (defonce server (nrepl/start-server :port port)))
+
+(defn setup []
+  (start-nrepl-server 7888)
+  (frame-rate 1)
+  (background 255)
+  (def directory (clojure.java.io/file "data"))
+  (def files (file-seq directory))
+  (set-state! :images  (map load-image files))
+
+  (def function-queue (atom [])))
+
+
+(defn append-function
+   "Append a function to the function queue"
+   [function]
+   (swap! function-queue #(conj %1 function))
+   )
+
+(defn eval-functions
+   "Evaluate all functions in the function-queue and empty it"
+   []
+   (let [pending-functions @function-queue]
+     (reset! function-queue [])
+     (doseq [function pending-functions]
+       (function))))
+
+
+(defn invoke-now
+   "Add a function to the function-queue and block until it returns"
+   [function]
+   (let [p (promise)]
+      (append-function #(deliver p (function)))
+      @p))
+
+(defn draw []
+
+   (eval-functions)
+
+   )
+
+
+(defn imga []
+  (let [images (state :images)]
+    ;(image img 0 0)
+    
+    (dorun (for [img images]
+             (do
+               (print img)
+               (map #(image img (mod (* 15 %) (width)) (mod (* 20 %) (height) )) (range 1000)))))
+    )
+  )
+
+(defsketch example                  ;;Define a new sketch named example
+  :title "Oh so many grey circles"  ;;Set the title of the sketch
+  :setup setup                      ;;Specify the setup fn
+  :draw draw                        ;;Specify the draw fn
+:size [1618 1000])                  ;;You struggle to beat the golden ratio
+
+

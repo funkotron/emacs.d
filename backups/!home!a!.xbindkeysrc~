@@ -1,0 +1,7 @@
+"/home/a/bin/brightness dec"
+m:0x0 + c:232
+XF86MonBrightnessDown
+
+"/home/a/bin/brightness inc"
+m:0x0 + c:128
+XF86LaunchA

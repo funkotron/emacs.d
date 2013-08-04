@@ -1,0 +1,6 @@
+(ns fizzbuzz-clj.core)
+
+(defn fizbuzz
+  "I don't do a whole lot."
+  [x]
+  (x))

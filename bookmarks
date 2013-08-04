@@ -1,0 +1,15 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("org-refile-last-stored"
+ (filename . "~/Dropbox/org/index.org")
+ (front-context-string . "** TODO Make an ")
+ (rear-context-string . "d, manager etc.\n")
+ (position . 468))
+("org-capture-last-stored"
+ (filename . "~/Dropbox/org/index.org")
+ (front-context-string . "** Clojure MindM")
+ (rear-context-string . "end user focus.\n")
+ (position . 58330))
+)

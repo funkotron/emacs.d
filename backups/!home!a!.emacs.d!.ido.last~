@@ -1,0 +1,62 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/a/workspace/app-tutorial/tutorial-service/src/" . "tutorial_service/")
+ ("/home/a/workspace/app-tutorial/tutorial-service/" . "src/")
+ ("/home/a/workspace/app-tutorial/tutorial-client/app/src/tutorial_client/" . "simulated/")
+ ("/home/a/workspace/app-tutorial/tutorial-client/app/src/" . "tutorial_client/")
+ ("/home/a/workspace/app-tutorial/tutorial-client/app/" . "src/")
+ ("/home/a/workspace/app-tutorial/tutorial-client/" . "app/")
+ ("/home/a/workspace/app-tutorial/" . "tutorial-service/")
+ ("/home/a/workspace/" . "app-tutorial/")
+ ("/home/a/" . "workspace/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/a/workspace/app-tutorial/tutorial-service/src/tutorial_service/"
+ "/home/a/workspace/app-tutorial/tutorial-service/"
+ "/home/a/workspace/app-tutorial/tutorial-client/app/src/tutorial_client/simulated/"
+ "/home/a/workspace/app-tutorial/tutorial-client/app/src/"
+ "/home/a/workspace/app-tutorial/tutorial-client/app/src/tutorial_client/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "service.clj"
+ "sr\\"
+ "start.cljs"
+ "."
+ "rendering.cljs"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/a/workspace/app-tutorial/tutorial-service/src/tutorial_service/" (20990 25606) "../" "service.clj" "server.clj" "./")
+
+ ("/home/a/workspace/app-tutorial/tutorial-service/src/" (20990 25606) "tutorial_service/" "../" "./")
+
+ ("/home/a/workspace/app-tutorial/tutorial-service/" (20990 25683) ".gitignore" "config/" "logs/" "src/" "../" "dev/" "README.md" "project.clj" ".lein-repl-history" "target/" "./" "test/")
+
+ ("/home/a/workspace/app-tutorial/" (20990 25606) ".gitignore" "tutorial-service/" "../" ".git/" "README.md" ".lein-repl-history" "target/" "./" "tutorial-client/")
+
+ ("/home/a/workspace/app-tutorial/tutorial-client/config/" (20990 25205) ".#config.clj" "../" "#config.clj#" "logback.xml" "config.clj" "./")
+
+ ("/home/a/workspace/app-tutorial/tutorial-client/app/src/tutorial_client/simulated/" (20988 13466) "start.cljs" "../" "post-processing.cljs" "services.cljs" "./")
+
+ ("/home/a/workspace/app-tutorial/tutorial-client/app/src/tutorial_client/" (20990 24536) "rendering.cljs" "start.cljs" "../" "behavior.clj" "simulated/" "html_templates.clj" "post_processing.cljs" "./")
+
+ ("/home/a/workspace/app-tutorial/tutorial-client/app/src/" (20984 20803) "../" "tutorial_client/" "./")
+
+ ("/home/a/workspace/app-tutorial/tutorial-client/app/" (20984 21723) "templates/" "src/" "../" "assets/" "./")
+
+ ("/home/a/workspace/app-tutorial/tutorial-client/" (20988 13362) ".gitignore" "config/" "out/" "logs/" "../" "dev/" "tools/" "README.md" "app/" "project.clj" ".lein-repl-history" "target/" "./" "test/")
+
+ ("/home/a/workspace/" (20985 14187) "goldheroku/" "treeio/" "goldclient/" "pedestal-app-tutorial/" "../" "pr0spect0r/" "krony/" "reelapi/" "./" "app-tutorial/")
+
+ ("/home/a/" (20990 21323) ".dmenu_cache" ".gconf/" ".gnome2_private/" ".zcompdump" ".ICEauthority" ".pgadmin3" ".viminfo" "Pictures/" ".bash_profile" ".lein/" ".mozilla/" ".xinitrc" ".recentf" ".Xauthority" "pgadmin.log" ".i3/" ".Xresources" ".gvfs/" ".ssh/" ".Xmodmap" "../" "workspace/" ".cache/" ".gphoto/" ".rvm/" ".local/" ".gnome2/" ".icons/" ".bashrc" ".dropbox-dist/" "Templates/" ".Xmodmap.crazy" "Maildir/" ".bash_logout" ".TREEIO_PGLITE_VOLUME_ID" "lib/" "backlightlog" ".macromedia/" ".pki/" ".zsh-update" "Desktop/" ".profile" ".gstreamer-0.10/" ".offlineimap/" ".dbus/" ".wicd/" "bm" "#.zshrc#" "am" ".config/" "Documents/" ".mu/" ".thumbnails/" "Music/" "acpi.log" ".zprofile" ".adobe/" ".bash_history" "Videos/" "Public/" ".gimp-2.8/" ".emacs.d/" ".TREEIO_PGLITE_PWD" ".authinfo" ".dmrc" "bin/" ".gem/" ".offlineimaprc.swp" ".offlineimaprc" "examples.desktop" "etc/" ".zsh_history" ".gitconfig" "Downloads/" ".vim/" ".zshrc" ".xsession-errors" "Dropbox/" ".dropbox/" ".compiz/" ".xsession-errors.old" "./" ".heroku/" ".m2/" ".xbindkeysrc" "hi.py" ".netrc" ".tmux.conf" ".fehbg" ".pip/" "fonts/" ".lesshst")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

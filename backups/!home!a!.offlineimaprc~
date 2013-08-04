@@ -1,0 +1,27 @@
+[general]
+accounts = Gmail
+maxsyncaccounts = 1
+autorefresh = 5
+
+[Account Gmail]
+localrepository = Local
+remoterepository = Remote
+
+[Repository Local]
+type = Maildir
+localfolders = ~/Maildir
+
+[Repository Remote]
+type = IMAP
+remotehost = imap.gmail.com
+remoteuser = adamja1@gmail.com
+remotepass = fziezqetuoljfywe
+ssl = yes
+#cert_fingerprint = b0ba392bba326e6feb1add4d04fa0fb86cd173fa
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+maxconnections = 1
+realdelete = no
+holdconnectionopen = yes
+idlefolders = ['INBOX']
+
+

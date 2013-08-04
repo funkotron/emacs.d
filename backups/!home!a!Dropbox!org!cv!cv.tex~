@@ -1,0 +1,208 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\usepackage[para]{footmisc}
+\usepackage{hyperref}
+
+\def\myurl#1{\setbox0\vbox{\hsize.5\maxdimen
+\url{#1}\par
+\setbox0\lastbox
+\global\setbox1\hbox{\unhbox0\unskip\unskip\unpenalty}}\unhbox1 }
+
+\setlength{\textwidth}{5.1in} % set width of text portion
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf Adam Awan}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+ \moveleft.5\hoffset\centerline{adam@tree.io} 
+ \moveleft.5\hoffset\centerline{Based in London, UK}
+ \moveleft.5\hoffset\centerline{+44 (0)797-4289-814}
+
+
+\begin{resume}
+ 
+\section{PERSONAL \\ SUMMARY} As a creative engineer with a lifelong passion for computers I hold great interest in working with the frontiers of web technology.  Founding and running a SAAS company, contracting for Google, working on an EU funded project and developing server-side, browser and mobile applications have given me specific technology industry experience and an in-depth, diverse skill set. 
+\section{EDUCATION} {\sl BSc 2(1) Hons, } Computer Science \hfill Graduated August 2010 \\
+                      % \sl will be bold italic in New Century Schoolbook (or
+                % any postscript font) and just slanted in
+          %  Computer Modern (default) font
+                King's College London University,
+                Upper Second Class with Honours \\
+                Final year project: Sentiment Analysis Over Newswire \\
+                Specialisms: Advanced Security Topics, Artificial Intelligence
+ 
+ 
+
+                \section{COMPUTER \\ SKILLS} 
+        Python, Django, jQuery, CSS, Photoshop, Vim, Emacs, BASH, GIT, Google App Engine, Linux System Administration (Debian), Amazon Web Services, Relational Databases, NoSQL Databases, IT Security \& Penetration Testing, Usability \& HCI
+
+ 
+\section{EXPERIENCE} 
+		{\sl Founder and Director,} Tree.io Ltd. \hfill Summer 2010 - Present \\
+		{\hrule width\textwidth height 1pt}
+                Tree.io\footnote{\myurl{http://www.tree.io}} is a business
+                management system for small and medium enterprises
+                built in Python, Django. The software is open sourced and
+                available on
+                GitHub\footnote{\myurl{http://www.github.com/treeio/treeio}}.
+                Tree.io is translated into 8 languages and is used on
+                the private networks of companies around the world.
+                 
+                 {\sl Development}
+             
+             \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Co-designed Tree.io in Python, Django, jQuery, AJAX and CSS
+                 \item Jointly responsible for software architecture, feedback and testing
+                 \item Created the design of the software interface and marketing site
+                \item Built a reporting module including grouping, filtering and charts
+                \item Adapted our services to use a PDF export system, AJAX uploads, last updated, AJAX instant invites, dynamic charts, Gantt charts and AJAX prorating
+                \item Made a sales \& CRM (customer relationship management) module including invoicing, product inventory, leads \& opportunity tracking, taxes and multiple currency support
+                \item Created a finance module that records
+                  transactions, expenses and assets.
+                \item Managed deployment to and maintenance of
+                  dedicated servers and AWS EC2 instances.
+                     
+
+\end{itemize}
+                {\sl Sales \& Marketing}
+            
+            \begin{itemize}  \itemsep -2pt %reduce space between items
+
+                 \item Created an internal analytics module to monitor aggregate usage and statistics
+                 \item Led the efforts for gathering user feedback, user testing and collection of surveys
+                 \item Editor and main author of all marketing copy and correspondence with clients
+                 \item Wrote Google Checkout, PayPal and Recurly Billing integrations
+                 \item Gave a talk to 300 visitors of the Business Startup Show, November 2011                     
+
+ 
+ \end{itemize}
+                 {\sl Management}
+
+\begin{itemize}  \itemsep -2pt %reduce space between items
+                  \item Led our team in coordinating and planning development using the SCRUM agile methodology
+                  \item Supervised and trained three interns in marketing, sales and Python development
+                  
+              
+              \end{itemize}
+
+			{\sl Django Developer,} Potato London \hfill
+                        January 2012 - August 2012 \\
+			\hrule
+			Freelance work for Google including architectural design, user experience studies and development with Python, Appengine, Django-nonrel, jQuery \& CSS.
+			
+{\sl Google Engage} \\
+Engage\footnote{\myurl{http://www.google.com/ads/engage/index.html}} is Google's largest single contributor of marketing revenue, taking the form of a multi-level coupon distribution system spanning 61 countries and 27 languages. I worked as part of a dedicated team of 8 full-time developers working across all areas of features, maintenance and support of the system. My work included the initial designs for a CloudSQL mirror for the Appengine datastore that optimised specific query times by a factor of 30, UX redesign of the admin CMS form entry system, refactoring low level caching middleware and feature design across many areas of the site.   
+			
+{\sl Google Campus London} \\
+Led the design and development of social features for Google's startup incubator, Campus London\footnote{\myurl{http://www.campuslondon.com}}. My work included building custom multiple social authentication, user \& event management, and an  API for social profile integrated card access to the caf\'{e}.
+
+{\sl Google Fiber} \\
+Lead developer in delivering our in-house events management system and CMS for a 50+ person events team for Google Fiber\footnote{\myurl{http://www.google.com/fiber/kansascity/index.html}} to manage the forthcoming launch of 1Gbps fibre optic broadband in Kansas City. 
+
+{\sl Web Solutions Engineer,} Xim Ltd. \hfill October 2012 - August 2013 \\
+			\hrule
+                        Deigned and implemented the core systems for
+                        the GoldUI\footnote{\myurl{http://www.goldui.eu/}}
+                        European AAL Project for Adaptive embedded
+                        human interfaces designed for older people.
+                        
+
+My tasks involved working with both SQL and NoSQL databases and
+building a Backbone.js mobile application that utilises responsive design
+principles so as to be used on a smart phone, android bed side radio
+device, tablet or television. The application structure was made
+highly modular and pluggable to facilitate adding future services.
+
+By modifying the open source Python,
+Flask\footnote{\myurl{http://flask.pocoo.org/}} based
+foAuth\footnote{\myurl{https://github.com/foauth/foauth.org}} project to work
+with our databases and Backbone app I built
+an authentication system that can scale and can be used to
+authenticate and authorise oAuth services by both carers
+on the web interfaces or by the end users on mobile devices.
+
+My work also included making a social news feed service pulling information
+from facebook and a news feed parser that allows a carer to select from
+Tiscali's rss feeds on the web interface and the end user to read
+these from their mobile device.
+
+{\sl CTO,} Doolally Concepts Ltd. \hfill January 2013 - August 2013 \\ \hrule
+Worked with Dr. Raj Persaud, a consultant psychiatrist, broadcaster and author of popular books about psychiatry, to develop and implement his concept of an
+iPhone app that uses film taste to give feedback on compatibility and
+relationship advice. The app uses trailers that are selected based on
+genre and matches users based on psychological research in the area of
+aesthetic preferences. 
+
+ {\sl Responsibilities}
+             
+             \begin{itemize}  \itemsep -2pt %reduce space between items
+                   \item Built the API backend in Django
+		\item Designed, from research, the compatibility algorithms
+		\item Built a psychological testing site to validate these algorithms (with third party academic review from Dr. Viren Swami at the University of Westminster)
+		\item Facebook integration
+		\item Apple Push Notifications
+		\item Hiring and managing iOS developers
+		\item Mobile Testing using TestFlight
+		\item Email notifications
+		\item Help video script editorial, filming, processing and hosting
+		\item Film trailer API consumption and processing
+		\item Admin interface for genre assignment, quotes \& film selection (for minigame)
+		\item 90\% test coverage
+ \end{itemize}
+        
+        \section{COMMUNITY \\ SERVICE}
+        {\sl CRISIS at Christmas} \hfill 2008, 2009\\
+             Assisted the homeless in using computers during the Christmas holiday period including helping find lost relatives.\\\\
+             {\sl St. Thomas' Hospital} \hfill 2010\\
+             Handed out flyers and assisted a children's games charity working in St. Thomas' Hospital for two days.
+
+        \section{WORK \\ EXPERIENCE}
+        {\sl Citigroup Smith Barney} \hfill Summer 2003\\
+            Worked under Terence Sinclair to compile a database of European telecoms providers and pricing across the `triple-play' internet, telephone and television subscription products. Translated from Spanish and French web sites in the process. \\\\
+        {\sl XIM Ltd.} \hfill 2009 - 2010\\
+            Tasked to investigate possible avenues for the use of sentiment analysis over newswire to predict the movements of financial markets. Created a software program written in Java which also served as my University final year project.\footnote{\myurl{https://dl.dropboxusercontent.com/u/9981205/Sentiment_Analysis_Over_Newswire.pdf}}
+            
+        \section{EXTRA-CURRICULAR \\ ACTIVITIES}             
+        {\sl Photography}\\
+        Amateur landscape photographer and Photoshop aficionado.\footnote{\myurl{http://www.flickr.com/photos/adamawan/}}
+
+        {\sl Sports}\\
+        Tennis, cycling, skiing and weekly training in Pilates and martial arts.
+
+        {\sl DEFCON,} Open Capture The Flag \hfill 2009, 2010\\
+        A member of the winning team of the DEFCON\footnote{\myurl{http://www.defcon.org/}} 2009 oCTF (Open Capture The Flag) hacking competition along side Googler George Hotz and Facebook employees Chris Putnam and Dan Weatherford. An example of my work was to reverse engineer Java code distributed as part of the event. I discovered a vulnerability which led to our team gaining shell access on our competitors machines. Our team was also the runner up of 2010. 
+
+        \section{REFERENCES}        
+        Laurence Pearce\\
+        {\sl Managing Director,} Xim Ltd.  \\
+        laurence@xim.co.uk\\
+
+	Steven Holmes\\
+	{\sl Senior Developer,} Potato Ltd.\\
+	steven.holmes@potatolondon.com\\
+	
+	Dr. Raj Persaud\\
+	{\sl Founder,} Doolally Concepts Ltd.\\
+	Consultant Psychiatrist\\
+	Emeritus Visiting Gresham Professor for Public Understanding of Psychiatry\\
+	drrajpersaud@gmail.com\\
+
+        Jonathan Ginsburg\\
+        {\sl Senior Lecturer,} King's College London University\\
+        Currently Professor at University Paris-Diderote\\
+        yonatan.ginzburg@univ-paris-diderot.fr
+   
+
+\end{resume}
+
+
+\end{document}
+
+
+

@@ -1,0 +1,623 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Fri Aug  2 23:37:36 2013
+;; Desktop file format version 206
+;; Emacs version 24.2.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring '("swap" "clojure" "mgs" "Notes" "notifier" "connect" "connect\\(" "gmail" "password" "repla" "notifs" "extern" "Tech\\ " "\\_<compleat\\_>" "zsh" "install"))
+(setq register-alist '((113)))
+(setq file-name-history '("~/workspace/app-tutorial/tutorial-client/app/src/tutorial_client/simulated/" "/home/a/workspace/app-tutorial/tutorial-client/." "/home/a/workspace/app-tutorial/." "/home/a/workspace/app-tutorial/tutorial-client/." "/home/a/workspace/app-tutorial/tutorial-client/app/src/tutorial_client/start.cljs" "/home/a/workspace/app-tutorial/tutorial-client/post-processing.cljs" "/home/a/workspace/app-tutorial/tutorial-client/." "/home/a/workspace/pedestal-app-tutorial/tutorial-client/app/src/tutorial_client/simulated/start.cljs" "/home/a/workspace/pedestal-app-tutorial/tutorial-client/app/src/tutorial_client/simulated/services.cljs" "/home/a/workspace/krony/tasks.py" "/home/a/workspace/krony/." "/home/a/workspace/pedestal-app-tutorial/tutorial-client/app/src/tutorial_client/start.cljs" "/home/a/workspace/pedestal-app-tutorial/tutorial-client/app/src/tutorial_client/." "/home/a/workspace/pedestal-app-tutorial/tutorial-client/app/src/tutorial_client/behavior.clj" "/home/a/.offlineimaprc" "/home/a/workspace/pr0spect0r/app.py" "/home/a/workspace/goldheroku/foauth/providers.py" "/home/a/workspace/goldheroku/services/__init__.py" "/home/a/workspace/goldheroku/services/facebook.py" "/home/a/hi.py" "/home/a/.zshrc" "/home/a/bin/edit.sh" "/home/a/.i3/config" "/home/a/workspace/goldclient/." "/home/a/bin/random_wallpaper.sh" "/home/a/.i3/config" "~/workspace/goldclient/js/goldui/services/facebook/facebook.js" "/home/a/workspace/goldheroku/requirements.txt" "/home/a/workspace/goldheroku/." "/home/a/workspace/goldheroku/templates/."))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/a/workspace/app-tutorial/tutorial-client/app/src/tutorial_client/simulated/post-processing.cljs"
+  "post-processing.cljs"
+  'clojure-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode rainbow-delimiters-mode projectile-mode paredit-mode)
+  368
+  '(121 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (column-number-mode . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/workspace/app-tutorial/tutorial-client/app/src/tutorial_client/start.cljs"
+  "start.cljs"
+  'clojure-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode rainbow-delimiters-mode projectile-mode paredit-mode hi-lock-mode)
+  345
+  '(345 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (column-number-mode . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/workspace/app-tutorial/tutorial-client/app/src/tutorial_client/simulated/start.cljs"
+  "start.cljs"
+  'clojure-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode rainbow-delimiters-mode projectile-mode paredit-mode hi-lock-mode)
+  316
+  '(412 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (column-number-mode . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/workspace/app-tutorial/tutorial-client/app/src/tutorial_client/behavior.clj"
+  "behavior.clj"
+  'clojure-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode rainbow-delimiters-mode projectile-mode paredit-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (column-number-mode . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  nil
+  "tutorial-client"
+  'dired-mode
+  '(visual-line-mode global-visual-line-mode global-auto-revert-mode projectile-mode)
+  177
+  '(139 nil)
+  t
+  '("/home/a/workspace/app-tutorial/tutorial-client/")
+  '((truncate-lines)))
+
+(desktop-create-buffer 206
+  nil
+  "dev"
+  'dired-mode
+  '(visual-line-mode global-visual-line-mode global-auto-revert-mode projectile-mode)
+  181
+  '(nil nil)
+  t
+  '("/home/a/workspace/app-tutorial/tutorial-client/dev/")
+  '((truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/Dropbox/org/index.org"
+  "index.org"
+  'org-mode
+  '(visual-line-mode global-visual-line-mode org-indent-mode global-auto-revert-mode undo-tree-mode projectile-mode)
+  66985
+  '(30235 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode eldoc-mode projectile-mode paredit-mode elisp-slime-nav-mode hi-lock-mode)
+  8539
+  '(10242 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (column-number-mode . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  nil
+  "app-tutorial"
+  'dired-mode
+  '(visual-line-mode global-visual-line-mode global-auto-revert-mode projectile-mode)
+  444
+  '(nil nil)
+  t
+  '("/home/a/workspace/app-tutorial/")
+  '((truncate-lines)))
+
+(desktop-create-buffer 206
+  nil
+  "app"
+  'dired-mode
+  '(visual-line-mode global-visual-line-mode global-auto-revert-mode projectile-mode)
+  181
+  '(nil nil)
+  t
+  '("/home/a/workspace/app-tutorial/tutorial-client/app/")
+  '((truncate-lines)))
+
+(desktop-create-buffer 206
+  nil
+  "src"
+  'dired-mode
+  '(visual-line-mode global-visual-line-mode global-auto-revert-mode projectile-mode)
+  183
+  '(nil nil)
+  t
+  '("/home/a/workspace/app-tutorial/tutorial-client/app/src/")
+  '((truncate-lines)))
+
+(desktop-create-buffer 206
+  nil
+  "tutorial_client"
+  'dired-mode
+  '(visual-line-mode global-visual-line-mode global-auto-revert-mode projectile-mode)
+  199
+  '(nil nil)
+  t
+  '("/home/a/workspace/app-tutorial/tutorial-client/app/src/tutorial_client/")
+  '((truncate-lines)))
+
+(desktop-create-buffer 206
+  nil
+  "simulated"
+  'dired-mode
+  '(visual-line-mode global-visual-line-mode global-auto-revert-mode projectile-mode)
+  209
+  '(nil nil)
+  t
+  '("/home/a/workspace/app-tutorial/tutorial-client/app/src/tutorial_client/simulated/")
+  '((truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/workspace/pedestal-app-tutorial/tutorial-client/app/src/tutorial_client/behavior.clj"
+  "behavior.clj"
+  'clojure-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode rainbow-delimiters-mode projectile-mode paredit-mode hi-lock-mode)
+  1549
+  '(646 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (column-number-mode . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/workspace/goldheroku/templates/index.html"
+  "index.html"
+  'html-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode projectile-mode)
+  288
+  '(872 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/workspace/pedestal-app-tutorial/tutorial-client/app/src/tutorial_client/simulated/services.cljs"
+  "services.cljs"
+  'clojure-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode rainbow-delimiters-mode projectile-mode paredit-mode hi-lock-mode)
+  818
+  '(818 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (column-number-mode . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/workspace/pedestal-app-tutorial/tutorial-client/app/src/tutorial_client/simulated/start.cljs"
+  "start.cljs"
+  'clojure-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode rainbow-delimiters-mode projectile-mode paredit-mode hi-lock-mode)
+  677
+  '(323 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (column-number-mode . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/workspace/pedestal-app-tutorial/tutorial-client/app/src/tutorial_client/start.cljs"
+  "start.cljs"
+  'clojure-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode rainbow-delimiters-mode projectile-mode paredit-mode hi-lock-mode)
+  719
+  '(774 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (column-number-mode . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/workspace/krony/tasks.py"
+  "tasks.py"
+  'python-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode projectile-mode hi-lock-mode)
+  273
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (column-number-mode . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/workspace/krony/notifications.py"
+  "notifications.py"
+  'python-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode projectile-mode hi-lock-mode)
+  88
+  '(576 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (column-number-mode . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  nil
+  "krony"
+  'dired-mode
+  '(visual-line-mode global-visual-line-mode global-auto-revert-mode projectile-mode)
+  361
+  '(nil nil)
+  t
+  '("/home/a/workspace/krony/")
+  '((truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/.i3/config"
+  "config"
+  'conf-space-mode
+  '(visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode projectile-mode)
+  5360
+  '(5361 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/.zshrc"
+  ".zshrc"
+  'sh-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode projectile-mode hi-lock-mode)
+  602
+  '(576 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (column-number-mode . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/workspace/pedestal-app-tutorial/tutorial-client/project.clj"
+  "project.clj"
+  'clojure-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode rainbow-delimiters-mode projectile-mode paredit-mode)
+  367
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (column-number-mode . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  nil
+  "tutorial_client"
+  'dired-mode
+  '(visual-line-mode global-visual-line-mode global-auto-revert-mode projectile-mode)
+  248
+  '(nil nil)
+  t
+  '("/home/a/workspace/pedestal-app-tutorial/tutorial-client/app/src/tutorial_client/")
+  '((truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/.offlineimaprc"
+  ".offlineimaprc"
+  'fundamental-mode
+  '(visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode)
+  658
+  '(659 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/workspace/goldheroku/config.py"
+  "config.py"
+  'python-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode projectile-mode hi-lock-mode)
+  31
+  '(471 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (column-number-mode . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/workspace/goldheroku/services/__init__.py"
+  "__init__.py"
+  'python-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode projectile-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (column-number-mode . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/workspace/pr0spect0r/app.py"
+  "app.py"
+  'python-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode projectile-mode hi-lock-mode)
+  1213
+  '(2864 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (column-number-mode . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/workspace/goldheroku/web.py"
+  "web.py"
+  'python-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode projectile-mode hi-lock-mode)
+  472
+  '(8242 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (column-number-mode . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/workspace/goldheroku/foauth/providers.py"
+  "providers.py"
+  'python-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode projectile-mode hi-lock-mode)
+  8924
+  '(8925 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (column-number-mode . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/workspace/goldheroku/services/facebook.py"
+  "facebook.py"
+  'python-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode projectile-mode hi-lock-mode)
+  1651
+  '(402 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (column-number-mode . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/hi.py"
+  "hi.py"
+  'python-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode projectile-mode)
+  31
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (column-number-mode . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/bin/edit.sh"
+  "edit.sh"
+  'sh-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode projectile-mode)
+  58
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/workspace/goldclient/js/goldui/services/facebook/facebook.js"
+  "facebook.js"
+  'js-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode projectile-mode hi-lock-mode)
+  3867
+  '(3867 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (column-number-mode . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  nil
+  "goldclient"
+  'dired-mode
+  '(visual-line-mode global-visual-line-mode global-auto-revert-mode projectile-mode)
+  208
+  '(nil nil)
+  t
+  '("/home/a/workspace/goldclient/")
+  '((truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/workspace/goldheroku/.gitignore"
+  ".gitignore"
+  'fundamental-mode
+  '(visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode)
+  13
+  '(13 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/bin/random_wallpaper.sh"
+  "random_wallpaper.sh"
+  'sh-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode projectile-mode hi-lock-mode)
+  44
+  '(442 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (column-number-mode . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/workspace/goldheroku/requirements.txt"
+  "requirements.txt"
+  'text-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode projectile-mode)
+  329
+  '(329 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  nil
+  "goldheroku"
+  'dired-mode
+  '(visual-line-mode global-visual-line-mode global-auto-revert-mode projectile-mode)
+  200
+  '(nil nil)
+  t
+  '("/home/a/workspace/goldheroku/")
+  '((truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/workspace/goldheroku/templates/services.html"
+  "services.html"
+  'html-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode projectile-mode)
+  2579
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  nil
+  "templates"
+  'dired-mode
+  '(visual-line-mode global-visual-line-mode global-auto-revert-mode projectile-mode)
+  597
+  '(nil nil)
+  t
+  '("/home/a/workspace/goldheroku/templates/")
+  '((truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/workspace/goldheroku/templates/service_login.html"
+  "service_login.html"
+  'html-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode projectile-mode)
+  692
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/workspace/goldclient/js/goldui/views/MenuView.js"
+  "MenuView.js"
+  'js-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode projectile-mode hi-lock-mode)
+  1609
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (column-number-mode . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/workspace/goldclient/templates/feedlist.html"
+  "feedlist.html"
+  'html-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode projectile-mode)
+  1102
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/workspace/goldclient/channel.html"
+  "channel.html"
+  'html-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode projectile-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/workspace/pr0spect0r/requirements.txt"
+  "requirements.txt"
+  'text-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode projectile-mode)
+  299
+  '(299 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  nil
+  "pr0spect0r"
+  'dired-mode
+  '(visual-line-mode global-visual-line-mode global-auto-revert-mode projectile-mode)
+  197
+  '(nil nil)
+  t
+  '("/home/a/workspace/pr0spect0r/")
+  '((truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/workspace/goldheroku/models.py"
+  "models.py"
+  'python-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode projectile-mode hi-lock-mode)
+  396
+  '(396 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (column-number-mode . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/workspace/goldheroku/templates/login.html"
+  "login.html"
+  'html-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode projectile-mode)
+  607
+  '(395 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/workspace/goldheroku/forms.py"
+  "forms.py"
+  'python-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode projectile-mode hi-lock-mode)
+  1122
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (column-number-mode . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/.emacs.d/elpa/undo-tree-20130614.1632/undo-tree-autoloads.el"
+  "undo-tree-autoloads.el"
+  'emacs-lisp-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode eldoc-mode projectile-mode paredit-mode elisp-slime-nav-mode)
+  1869
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/.emacs.d/elpa/smart-tab-20130317.1157/smart-tab-autoloads.el"
+  "smart-tab-autoloads.el"
+  'emacs-lisp-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode eldoc-mode projectile-mode paredit-mode elisp-slime-nav-mode)
+  1319
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/.emacs.d/elpa/cl-lib-0.3/cl-lib-autoloads.el"
+  "cl-lib-autoloads.el"
+  'emacs-lisp-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode eldoc-mode projectile-mode paredit-mode elisp-slime-nav-mode)
+  173
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/a/.emacs.d/elpa/multi-term-20130108.2305/multi-term-autoloads.el"
+  "multi-term-autoloads.el"
+  'emacs-lisp-mode
+  '(auto-fill-mode visual-line-mode global-visual-line-mode global-auto-revert-mode undo-tree-mode eldoc-mode projectile-mode paredit-mode elisp-slime-nav-mode)
+  1303
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t) (truncate-lines)))
+

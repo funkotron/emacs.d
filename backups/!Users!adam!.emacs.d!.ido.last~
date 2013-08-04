@@ -1,0 +1,42 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/adam/Dropbox/" . "reel/")
+ ("/Users/adam/workspace/" . "reel/")
+ ("/Users/adam/" . "workspace/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/adam/workspace/reel/"
+ "/Users/adam/Dropbox/reel/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "."
+ "How Real is Your Love API.txt"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/adam/workspace/reel/" (20515 31810 0 0) "reel_api_docs_v0.1.pdf" "api_prototype.pdf" "api.md" "../" "./")
+
+ ("/Users/adam/" (20967 47858 0 0) "yankring_history_v2.txt" "workspace/" "virtualenv/" "VirtualBox VMs/" "Vagrant-1.2.2.dmg" "tmp/" "target/" "Public/" "powerline-bash.py" "Pictures/" "pgadmin.log" "New Unity Project/" "Music/" "Movies/" "Library/" "lib/" "dwhelper/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "CodeHero/" "cleanup/" "build/" "bin/" "backup/" "Applications/" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump" ".Xauthority" ".wireshark-etc/" ".wireshark/" ".wapi/" ".vimrc" ".viminfo" ".vim/" ".vagrant.d/" ".Trash/" ".subversion/" ".ssh/" ".sh_history" ".rnd" ".retroshare/" ".recently-used" ".recentf" ".psql_history" ".pip/" ".pgpass" ".oh-my-zsh/" ".npm/" ".netrc" ".mongorc.js" ".m2/" ".links/" ".lighttable/" ".lein/" ".ipython/" ".heroku/" ".gitconfig" ".gem/" ".fontconfig/" ".filezilla/" ".emacs~" ".emacs.d/" ".emacs.bak" ".dvdcss/" ".DS_Store" ".dropbox/" ".dbshell" ".cups/" ".config/" ".codeintel/" ".CFUserTextEncoding" ".cache/" ".bzr.log" ".bash_history" ".apdisk" ".adobe/" "../" "./")
+
+ ("/Users/adam/Dropbox/reel/" (20807 6000 0 0) "ui/" "titleseq.c4d" "Theatrical-DVD Feed API v3.1 oct_09_2011.pdf" "test_dump/" "reelapi todo.scribe/" "reel_love_icon" "reel/" "previewnetworks_video_types.png" "previewnetworks_video_types.jpg" "missionimpossible.jpg" "mission_impossible_api.txt" "mission_impossible_api" "mind_reading_24x24.png" "mind_reading_24x16.png" "mind_reading_12x8.png" "mind_reading_12x12.png" "matrix4.docx" "log_titleseq_Editor_a.xml" "iStock_000008492573_Illustration.zip" "iStock_000008492573_Illustration/" "Icon
+" "hriyl_iphonescreens_6.png" "hriyl_iphonescreens_4.png" "howreeldraftdoc3.pdf" "howreeldraftdoc3.doc" "How Real is Your Love API.txt~" "How Real is Your Love API.txt" "How Real is Your Love API (Adam Awan's conflicted copy 2012-08-23).txt" "ghostprotocol.psd" "ghostprotocol.jpg" "backups/" "App Icon [Rounded]/" "[#HRIYL-165] Improvements before release version 1.0 - Yalantis JIRA.pdf" "8492573.jpg" "2012-09-03_HRIYL_mockups.zip" "2012-09-03_HRIYL_mockups/" "1354440734_screenshot_1680x1050.orig.jpg" ".DS_Store" ".dropbox" "../" "./")
+
+ ("/Users/adam/Dropbox/org/" (20967 18118 0 0) "ZimNotes/" "yearplanner.xoj" "work.org~" "work.org" "work (z4u's conflicted copy 2011-05-15).org~" "work (z4u's conflicted copy 2011-05-15).org" "work (aeterna's conflicted copy 2011-09-07).org~" "work (aeterna's conflicted copy 2011-09-07).org" "winwag_user_stories" "winwag_tools_choice.org" "winwag.org~" "winwag.org" "winwag-uml.xoj" "winwag-uml.pdf" "vdeli.org~" "vdeli.org" "vail_todo.org~" "vail_todo.org" "Treeio-FrontPage-Mockup.xoj" "tree/" "TODOtoday.xoj" "todo.txt" "todo.tmp" "to_cancel.scribe/" "texput.log" "systema.org~" "systema.org" "systema (aeterna's conflicted copy 2011-09-07).org~" "systema (aeterna's conflicted copy 2011-09-07).org" "sites.org" "shopping.txt" "Semantic.xoj" "scores.org" "scores.html~" "scores.html" "report.txt" "replace.txt" "reellove_todo.txt" "reellove_todo.ps" "reellove_todo.pdf" "raj/" "psy.org~" "psy.org" "projects.org~" "projects.org" "plan.markdown" "photography/" "pentesting.org~" "pentesting.org" "p.txt" "morning.org~" "morning.org" "morning (aeterna's conflicted copy 2011-09-07).org~" "morning (aeterna's conflicted copy 2011-09-07).org" "missfont.log" "mikepitch.org~" "mikepitch.org" "Meta4.org~" "Meta4.org" "index.tex" "index.org~" "index.org_archive~" "index.org_archive" "index.org" "index.html~" "index.html" "index (air's conflicted copy 2013-02-10).org" "index (air's conflicted copy 2012-12-05).org" "index (Adams-MacBook-Pro-2's conflicted copy 2013-01-20).org" "htvideonotes.org" "home.org" "hol.txt" "hol.tex" "hol.org~" "hol.org" "Graphs UML.xoj" "Graphs UML.pdf" "GodMode" "gipunique" "filestore_workflow.org~" "filestore_workflow.org" "evening.org" "done.txt" "Dad's Photo Website.xoj" "cv.tex" "cv.out" "cv.org" "cv.log" "cv.aux" "cv/" "bizideas.org~" "bizideas.org" "AI Architecture.xoj" "agendaout.ps" "agenda.txt" "acting_voice.scribe/" "2373TCw.jpg" "2373sjd.jpg" "2373gM2.jpg" "2373G4p.jpg" "2373fZX.jpg" "23735tj.jpg" "2011-01-17-Note-20-36.xoj" "2011-01-15-Note-15-47.xoj" "2010-12-16-ASTAR Webservices.xoj" "2010-12-16-ASTAR Webservices.pdf" "2010-12-01-Note-15-10-Graphs-Outline.xoj" "13pillarsnutshell.pdf.xoj" ".DS_Store" "#work.org#" "#hol.org#" "#bizideas.org#" "../" "./")
+
+ ("/Users/adam/Dropbox/" (20965 62972 0 0) "yosuke/" "workspace_backup/" "winwag/" "webdev/" "wallpaper/" "treeio/" "Sparrow/" "shrink/" "research/" "reel/" "Raj Persaud/" "Public/" "property/" "PicoCode/" "Photos/" "phix/" "org/" "music/" "movies/" "investorio/" "investment/" "Icon
+" "HRIYR/" "goldui/" "fonts/" "Documents/" "config/" "Camera Uploads/" "blog/" "art/" "aran/" ".DS_Store" ".dropbox.cache/" "../" "./")
+
+ ("/Users/adam/workspace/" (20964 32406 0 0) "yuicompressor-2.4.7.jar" "winwag/" "tshirt/" "treezip/" "treeiobak/" "treeio/" "test/" "snurgy_client/" "snurgy/" "simplesocial/" "shrink-ai/" "Sentient/" "seedhackfashion/" "saleor/" "reelsurvey/" "reelapi/" "reel/" "py-impactjs/" "pic/" "phix/" "meme/" "mailtasker/" "likehome/" "lib/" "krony/" "kaizen/" "impact-book-resources/" "impact-1.19/" "impact/" "hriyl/" "hihoglyph.py" "heritage/" "hardtree/" "gtoolkit-nonrel/" "gtoolkit/" "googlecodejam/" "goldui/" "goldclient/" "goldapp/" "gap2/" "games/" "flask-soa/" "fizzbuzz-clj/" "fiber/" "evergreen/" "engage/" "drillio/" "django-pipeline-compass/" "django-giant/" "django-backbone-example/" "catwalk/" "campus2/" "botwars/" "blogstrap/" "betbias/" "adamblog/" "adamawan.com/" "adama1.com/" ".DS_Store" "../" "./")
+
+ ("/Users/adam/workspace/adama1.com/" (20965 56521 0 0) "srv.pid" "publishconf.py" "pelicanconf.py" "pelican.pid" "output/" "Makefile" "develop_server.sh" "content/" "code_like_a_pro.md" "build/" "adamstheme/" ".gitmodules" ".git/" ".DS_Store" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

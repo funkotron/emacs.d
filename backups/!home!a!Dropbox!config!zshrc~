@@ -1,0 +1,96 @@
+# Path to your oh-my-zsh configuration.
+ZSH=$HOME/lib/oh-my-zsh
+
+# Set name of the theme to load.
+# Look in ~/lib/oh-my-zsh/themes/
+# Optionally, if you set this to "flazz", it'll load a flazz theme each
+# time that oh-my-zsh is loaded.
+ZSH_THEME="wedisagree"
+# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+
+# plugins=(git,vi-mode,arch-linux,django,debian,pip,python,vundle)
+
+# Customize to your needs...
+PATH=/usr/local/bin:$PATH:$HOME/bin
+
+plugins=(git python django pip cp battery extract sublime themes dircycle heroku compleat)
+#removed vi-mode for emacs
+source $ZSH/oh-my-zsh.sh
+#unsetopt correct_all
+
+#PYTHON
+#export WORKON_HOME=$HOME/virtualenv
+
+source ~/.bash_aliases
+
+#Django
+alias srv="python manage.py runserver"
+alias shell="python manage.py shell"
+alias syncdb='python manage.py syncdb'
+alias celeryd='python manage.py celeryd --loglevel=info'
+
+#Navigation
+function w(){
+    cd $HOME/workspace/$1
+    source $HOME/virtualenvs/$1/bin/activate
+    clear
+    ls
+    git status
+}
+
+
+alias la="ls -la"
+alias o="open . &"
+alias reload="source ~/.zshrc"
+alias e="vim ~/.zshrc"
+
+alias i="sudo apt-get install"
+alias c="apt-cache search"
+alias ug="sudo apt-get upgrade"
+alias ud="sudo apt-get update"
+
+#Processes
+alias tu='top -o cpu'
+alias tm='top -o vsize'
+
+#SSH
+# alias tree="ssh -i ~/Dropbox/treetop.pem root@tree.io"
+alias ik='install-key'
+#Above is for Github's adamcooke-key-installer
+# gem sources -a http://gems.github.com
+# sudo gem install adamcooke-key-installer
+
+#Editor
+# export EDITOR=vim
+alias v=vim
+
+# For vi-mode escape with jk
+bindkey -M viins 'jk' vi-cmd-mode
+
+# Terminal 256 colors
+export TERM="xterm-256color"
+clear
+fortune | cowsay 
+
+# Print stack trace of a core file without needing to enter gdb interactively
+alias gdbbt="gdb -q -n -ex bt -batch"
+
+# Get your current Public IP
+alias myip="dig o-o.myaddr.l.google.com @ns1.google.com txt +short"
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+# My own pbcopy
+alias cb="xclip -sel clip"
+alias pg="ping google.com -c 10"
+
+# Emacs client
+export EDITOR=~/bin/edit.sh
+export ALTERNATE_EDITOR=emacs 
+export VISUAL=$EDITOR
+
+alias e="~/bin/edit.sh"
+
