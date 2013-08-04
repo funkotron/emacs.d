@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ package-install
  load-library
  indent-region
  secrets-show-secrets
  global-hl-line-mode
  speedbar
  load-theme
- magit-status
 )
 
 ;; ----- smex-data -----
@@ -41,7 +41,7 @@
  (nrepl-bol . 1)
  (package-list-packages . 3)
  (gnus-score-mode . 1)
- (package-install . 16)
+ (package-install . 17)
  (nrepl-mode . 3)
  (undo-tree-visualize . 12)
  (checkdoc-minor-mode . 1)
