@@ -273,6 +273,7 @@ directory and insert a link to this file."
                       dash
                       s
                       multi-term
+                      simple-httpd
                       ))
 
 (dolist (p my-packages)
