@@ -6,8 +6,14 @@
 ;; Load secrets
 (require 'setup-secrets)
 
-(find-file "~/Dropbox/org/index.org")
-(desktop-save-mode 1)
+(package-initialize)
+
+;; Require Org-Babel Clojure
+(require 'ob-clojure)
+(require 'ob-python)
+
+;; (find-file "~/Dropbox/org/index.org")
+;; (desktop-save-mode 1)
 
 ;; Automatically reload file if changed on disk
 (global-auto-revert-mode t)
@@ -47,20 +53,22 @@
 "Take a screenshot into a unique-named file in the current buffer file 
 directory and insert a link to this file."
 
-  (interactive)
-  (setq filename
-   (concat
-    (make-temp-name
-     (file-name-directory (buffer-file-name))
-    )
-    ".jpg"
-   )
-  )
+(interactive)
+(setq file-base
+      (make-temp-name
+       (file-name-directory (buffer-file-name))
+       ))
+(setq filename
+      (concat
+       file-base ".png"))
+(setq thumbnail
+      (concat
+       file-base "-thumb.png"))
 
-
-(call-process "screencapture" nil nil nil "-i" "-x" filename)
-  (insert (concat "[[" filename "]]"))
-  (org-display-inline-images))
+(call-process "scrot" nil nil nil "-s" "-t" "30" filename)
+(insert (concat "[[" thumbnail "]] \n"))
+(insert (concat "[[" filename "][" filename "]]"))
+(org-display-inline-images))
 
 ;; Set org mode shortcuts
 (global-set-key "\C-cl" 'org-store-link)
@@ -68,6 +76,9 @@ directory and insert a link to this file."
 (global-set-key "\C-ca" 'org-agenda)
 (global-set-key "\C-cb" 'org-iswitchb)
 
+;; Powerline
+(add-to-list 'load-path "~/.emacs.d/emacs-powerline")
+(require 'powerline)
 
 ;; First define a variable which will store the previous column position
 (defvar previous-column nil "Save the column position")
@@ -98,7 +109,7 @@ directory and insert a link to this file."
 (require 'smart-tabs-mode)
 (smart-tabs-insinuate 'python)
 (add-hook 'python-mode-common-hook
-    (lambda () (setq indent-tabs-mode t)))
+    (lambda () (setq indent-tabs-mode f)))
 
 
 
@@ -114,7 +125,10 @@ directory and insert a link to this file."
 
   Source: %u, %c
 
-  %i")))))
+  %i"))) t)
+ '(org-src-fontify-natively t)
+ '(term-default-bg-color "#002b36")
+ '(term-default-fg-color "#ffffff"))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -274,6 +288,9 @@ directory and insert a link to this file."
                       s
                       multi-term
                       simple-httpd
+                      elpy
+                      org
+                      htmlize
                       ))
 
 (dolist (p my-packages)
@@ -327,11 +344,24 @@ directory and insert a link to this file."
 (add-hook 'nrepl-mode-hook 'rainbow-delimiters-mode)
 (add-hook 'nrepl-mode-hook 'subword-mode)
  
+;; Auto completion config
+(require 'auto-complete-config)
+(ac-config-default)
+
 ;; Auto completion for NREPL
 (require 'ac-nrepl)
-(eval-after-load "auto-complete"
-'(add-to-list 'ac-modes 'nrepl-mode))
 (add-hook 'nrepl-mode-hook 'ac-nrepl-setup)
+(add-hook 'nrepl-interaction-mode-hook 'ac-nrepl-setup)
+(eval-after-load "auto-complete"
+  '(add-to-list 'ac-modes 'nrepl-mode))
+
+(defun set-auto-complete-as-completion-at-point-function ()
+  (setq completion-at-point-functions '(auto-complete)))
+(add-hook 'auto-complete-mode-hook 'set-auto-complete-as-completion-at-point-function)
+(add-hook 'nrepl-mode-hook 'set-auto-complete-as-completion-at-point-function)
+(add-hook 'nrepl-interaction-mode-hook 'set-auto-complete-as-completion-at-point-function)
+;; Use AC-Nrepl in place of el-doc
+(define-key nrepl-interaction-mode-map (kbd "C-c C-d") 'ac-nrepl-popup-doc)
 
 ;; nrepl-inspect
 ;; (add-to-list 'load-path "~/.emacs.d/nrepl-inspect")
@@ -496,9 +526,31 @@ directory and insert a link to this file."
 ;; SHELL
 (require 'multi-term)
 (setq multi-term-program "/bin/zsh")
-(custom-set-variables
- '(term-default-bg-color "#002b36")        ;; background color (black)
- '(term-default-fg-color "#ffffff"))       ;; foreground color (yellow)
+       ;; foreground color (yellow)
+(global-set-key (kbd "C-c t") 'multi-term-next)
+(global-set-key (kbd "C-c T") 'multi-term) ;; create a new one
+
+;; disable evil mode for terminals
+(add-hook 'term-mode-hook                                 
+          (lambda ()
+            (turn-off-evil-mode)
+            (setq evil-local-mode nil)
+            (setq evil-mode nil)
+            ))
+
+
+;; change mode-line color by evil state
+(lexical-let ((default-color (cons (face-background 'mode-line)
+                                   (face-foreground 'mode-line))))
+  (add-hook 'post-command-hook
+    (lambda ()
+      (let ((color (cond ((minibufferp) default-color)
+                         ((evil-insert-state-p) '("#e80000" . "#ffffff"))
+                         ((evil-emacs-state-p)  '("#444488" . "#ffffff"))
+                         ((buffer-modified-p)   '("#006fa0" . "#ffffff"))
+                         (t default-color))))
+        (set-face-background 'mode-line (car color))
+        (set-face-foreground 'mode-line (cdr color))))))
 
 ;;Projectile
 (global-set-key "\C-xo" 'projectile-find-file)
@@ -513,3 +565,7 @@ directory and insert a link to this file."
   (pop-mark)
   (other-window 1))
 (define-key global-map (kbd "C-x 4 n") 'clone-buffer-and-narrow-to-function) ; or whatever key you prefer
+
+;; Elpy Python toolkit
+(package-initialize)
+(elpy-enable)
