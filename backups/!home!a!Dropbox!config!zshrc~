@@ -5,7 +5,7 @@ ZSH=$HOME/lib/oh-my-zsh
 # Look in ~/lib/oh-my-zsh/themes/
 # Optionally, if you set this to "flazz", it'll load a flazz theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="wedisagree"
+ ZSH_THEME="wedisagree"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 
 # plugins=(git,vi-mode,arch-linux,django,debian,pip,python,vundle)
@@ -13,15 +13,15 @@ ZSH_THEME="wedisagree"
 # Customize to your needs...
 PATH=/usr/local/bin:$PATH:$HOME/bin
 
-plugins=(git python django pip cp battery extract sublime themes dircycle heroku compleat)
+# plugins=(git python django pip cp battery extract sublime themes dircycle heroku compleat)
 #removed vi-mode for emacs
 source $ZSH/oh-my-zsh.sh
-#unsetopt correct_all
+unsetopt correct_all
 
 #PYTHON
 #export WORKON_HOME=$HOME/virtualenv
 
-source ~/.bash_aliases
+# source ~/.bash_aliases
 
 #Django
 alias srv="python manage.py runserver"
@@ -68,9 +68,10 @@ alias v=vim
 bindkey -M viins 'jk' vi-cmd-mode
 
 # Terminal 256 colors
-export TERM="xterm-256color"
-clear
-fortune | cowsay 
+# export TERM="xterm-256color"
+#clear
+#fortune | cowsay 
+randfav
 
 # Print stack trace of a core file without needing to enter gdb interactively
 alias gdbbt="gdb -q -n -ex bt -batch"
@@ -94,3 +95,20 @@ export VISUAL=$EDITOR
 
 alias e="~/bin/edit.sh"
 
+## Setup proper term information for emacs ansi-term mode
+[[ $TERM == eterm-color ]] && export TERM=xterm
+
+# {{{ Emacs compatibility
+  
+  ## FAQ 3.10: Why does zsh not work in an Emacs shell mode any more?
+  ## http://zsh.sourceforge.net/FAQ/zshfaq03.html#l26
+  [[ $EMACS = t ]] &amp;&amp; unsetopt zle
+  
+  # Enable emacs keymap
+  bindkey -e
+  
+  # From resolve (http://repose.cx/conf/.zshrc)
+  WORDCHARS='*?_-[]~=&;!#$%^(){}<>'                    # Emacs compatible M-b and M-f
+  bindkey "\C-w" kill-region      # Emacs C-w command support
+  
+  # }}}

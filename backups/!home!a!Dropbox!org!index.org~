@@ -1,206 +1,255 @@
 * Todo
-** TODO Complete Pedestal App Tutorial
+** TODO Move router inside of br0 and use for wireless only
+*** TODO Check firewall on eth0
+*** TODO Set eth0 to dynamic or static IP?
+** TODO Github orgmode sync
+** STARTED Make zau public
 ** TODO Replace Dropbox with http://SeaCloud.cc
-** TODO Cancel 3 contract
-** TODO Call Rachid
-** TODO Call Yoav / Email
-** TODO Send Juri holiday photos
-** TODO Set up RabbitMQ notifications
-** TODO Set up boomerang (& *?....other plugins search blog thread) on mu4e
+** TODO Bind C-u to move up page in Evil mode
+** TODO Extract files after transmission download - automate 
+** TODO New business cards with mobile and blog
+** STARTED Write some blogposts in orgmode (export as markdown to pelican)
+** TODO Research home automation for pops
+** STARTED Complete Code School courses, js, git & design, then cancel
 ** TODO Complete Algorithms coursera
-** TODO Complete Code School courses then cancel
-** TODO Ensure vodafone has been cancelled and refund, manager etc.
+** STARTED Read tree.io messages using key from OSX partition
+Commit from AWS then mod code locally
+** STARTED Ask rita for photo to scanscanner may be unplugged
+** TODO Make budget
+** TODO book dentist
+** TODO book gp
+** TODO order mat for ground work
+** STARTED Complete Pedestal App Tutorial
+** CANCELLED Ensure vodafone has been cancelled and refund, manager etc.
+CLOSED: [2013-08-14 Wed 15:43]
+record call and check with standards agency
+** TODO Cancel 3 contract
 ** TODO Make an automatic agenda web page using pedestal
+** TODO Get mu4e set up correctly
+** STARTED RabbitMQ notifications service
+     Ping servers
+** TODO Buy osprey bag
+http://www.spikeoutdoors.co.uk/osprey-pixel.html?gclid=CJG9h6uM87gCFUVb3god2xIAkw
+http://www.cotswoldoutdoor.com/osprey-escapist-30-rucksack-62110603?id_colour=108
+http://www.cotswoldoutdoor.com/osprey-escapist-25-rucksack-62110602?id_colour=108
+http://www.cotswoldoutdoor.com/osprey-escapist-25-rucksack-62110602?id_colour=108
 * Projects
-** Opn
-*** opinion on network
-*** true false statements
-much easier to implement and cleaner UI
-*** 1-5 statements
-*** guess unknown params
-*** similarity
-*** predictive analysis (machine learning)
-*** questions
-**** films
-**** opinion
-**** history
-**** friends
-**** likes
-*** ability to ask a question
-*** scoring based on accuracy
-*** only reveal more of the profile if guess is correct
-*** limits on guesses per day
-(unless you pay for extra guesses at £2/guess)
-** Simple Social
-*** Domains
-**** newpeep.com
-**** hushweb.com
-**** socialturn.com
-**** hushbase.com
-**** flowsecure.com
-**** mixora.com
-**** hushmate.com
-**** talkergy.com
-**** vialock.com
-**** cryptocastle.com
-**** forthub.com
-**** dropta.com
-**** youinsta.com
-**** youuser.com
-**** rebellink.com
-**** linkclever.com
-**** friendlogic.com
-**** friendsecure.com
-**** grougroup.com
-**** supegroup.com
-**** hushloop.com
-**** cryptorip.com
-**** swaprism.com
-**** sentsafe.com
-**** fetchsafe.com
-**** prismsafe.com
-**** prismlock.com
-**** sharebolt.com
-**** shareknight.com
-**** secretbond.com
-**** alphasoc.com
-**** tausociety.com
-**** compulp.com
-**** forwardsnap.com
-**** indiecake.com
-**** atlastay.com
-**** dominto.com
-**** bitezy.com
+** Game
+*** Inspiration
+**** Commander Keen
+**** RAF Flying Game
+**** Atari Box Pacman-esque 2player Arcade Swag Game
+**** GTA2
+**** Worms
+**** Drugwars
+**** Mario
+**** Warcraft 2
+**** C&C RA
+**** Toe Jam & Earl
+** Memeplex.io
+*** Introduction
+The more like a formal induction the better the results can expected
+to be, but we need to ensure this does not make the app less intuitive
+or accessible.
+*** TODO Read BJ Foggs book on Kindle
+*** TODO Read [[file:~/Dropbox/research/Persuasive_Advertising.pdf][Persuasive Advertising]]
+*** TODO Read [[file:~/Dropbox/research/Advances_in_Advertising_Research.pdf][Advances in Advertising Research]]
+*** TODO Create a system architecture overview
+*** Building a small all-stars team
+**** Psych grad / research student
+**** Business specialist
+**** Designer
+**** Developer / DevOps
+*** Choosing hard problems to solve
+**** Measuring & altering state
+**** Recording & Changing associations
+**** Changing thoughts, perceptions, beliefs and habits
+**** Anxieties, phobias, addictions, lack of motivation
+**** Do this in an unobtrusive, engaging and measurably effective way
+*** Association
+We can change our associations using visual and auditory responses
+which link an experience to another one. This can be used to do many
+things. At it's most basic we can arouse a positive affect and then
+associate the desired meme by displaying them together.
+**** Advertising affects us on a daily basis, why not create our own adverts for ourselves to help us lead a better life?
+***** “Drink Coca-cola, Eat popcorn” -> James Vicary (1957)
+***** McDonalds subliminal on youtube http://www.youtube.com/watch?v=LMzbwa6PvEE
+**** learn
+**** memorise
+**** supermemo / anki memory queue algorithm
+**** change the way we feel about something
+**** change what something means to us
+**** forget something
+**** program a complex set of tasks or behaviours
+in it's more advanced forms classical conditioning can be used to
+build up to complex procedures. in reality this is better done
+within the framework of a story or metaphor.
+*** Categorisation
+Using subliminal motor responses we can measure the categorisation of
+a given meme (experience / memory / concept). An example for stopping
+smoking would be how closely smoking is categorised with fun,
+drinking, socialising, certain times of the day, certain places,
+health, family, money, their identity.
+**** Priming
+Priming has a positive effect, so categorising non-subliminally first
+is recommended.
+http://link.springer.com/article/10.3758%2FBF03196262?LI=true#page-1
+**** Changing
+***** Revivification / focus on meme
+***** feedback echo
+***** cognitive overload (infinite possibilities)
+***** association
+***** suggestion
+*** Focus training
+Attention is the key to learning. By using a variety of techniques we
+can change the internal state of the body and mind to better enable it
+to focus and absorb new information.
+**** Over stimulating
+**** Under stimulating
+**** Fight or Flight response
+**** Bucha effect
+**** Blinkenlights
+**** Binaural beats
+**** Isochronic tones
+**** Fractionation
+**** Feedback loops
+***** Bio-feedback
+****** EEG
+****** ECG
+****** Galvanic Response
+***** Key press reaction time (ideomotor depth scale)
+**** Suggestion
+**** Inductions
+**** Magic Room effect
+**** Belief and expectancy
+*** Suggestions
+**** Direct Suggestion
+**** Indirect Suggestion
+**** Meta Suggestion
+*** Emotion
+**** Revification
+**** Piggy backing on existing emotion
+***** OpenCV Face Rec http://bit.ly/YpNMPf
+***** Sentiment analysis of typed text
+***** Keywords in typed text
+*** Story
+**** Context and Framing
+**** Emotional rollercoaster
+**** Hard loop and soft loop breaks
+*** Visualisation
+**** How to best represent the meme as a symbol + sound?
+**** Symbols as 3D assets
+***** Changes in Time (looped as a function of feedback response)
+***** Colour
+***** Shape
+***** Size
+***** Distance
+***** Quantity
+***** Inetraction with other symbols
+*** API
+**** Option to send to an API
+**** Paid service
+**** Google Glass
+*** Metrics
+Provide positive news. E.g. 3 days in a row / 30% better association
+**** D3.JS
+**** Processing.js
+**** Matplotlib
 *** Goals
-**** Get a minimal encrypted social setup going
-***** TODO How to generate keys
-****** Create a library (fine grained abstraction) for encryption handling with a Protocol
-****** Masterpass encrypts random sjcl ecc key with AES if none on email
-****** Encrypted key is stored on server on email record
-****** Login again pulls and decrypts the key with re-entry of masterpass
-***** TODO Encrypt a piece of content using hybrid encryption
-***** TODO Add Content Security Policy
-http://www.html5rocks.com/en/tutorials/security/content-security-policy/#use-case-1-social-media-widgets
-***** TODO Add TLS
-*** Concepts
-**** What are the key abstractions?
-***** Message
-****** direct? (to:)
-****** medium(twitter,facebook,blog,email,chat)
-****** tags[friends,tech,art]
-****** visibility(fn (filter hasperm? msg))
-****** media[photo,video,audio,game]
-****** text [style]
-****** location
-****** link (bookmarks / embedded)
-**** What do people want in a social network that fb & twitter doesn't provide
-***** Privacy
-****** ECC and AES Hybrid: http://justinthomas.pro/crypto/test.html#encryptedtextalice
-***** Natural interactions (as offline)
-****** [#B] WebRTC with websockets https://webrtc-experiment.appspot.com/
-***** Relevance, interest and personal interactions
-****** Filtering - preferably with database layer - Prismatic Store
-***** A focus on interaction
-****** UI that segments based on interaction (who with, what time, about what)
-****** An abstraction over interaction.
-***** If you want to check up on how your friend is doing, you would use this.
-****** Ability to actively check a friend's feed
-***** If you want to tell people about how you are doing, you would use this.
-****** Ability to selectively publish content. This is the life blood of the system and should be well tuned.
-***** If you want to learn more about things relevant to your interests you would use this.
-****** Filter based on topic / tag
-***** Paid (subscribable) feeds (v2)
-**** Get started with Prismatic's Graph
-**** Use a protocol to define messages
-***** TODO Learn protocols
-**** Try and get Prismatic's Store
-**** Recommended tag for friends to recommend an item
-**** function to add a tag to a message (email or other) map
-**** email direct tagged or subscribers
-**** set small targets
-*** Design
-**** Control Panel view?
-[[/Users/adam/Dropbox/org/2373sjd.jpg]]
-[[/Users/adam/Dropbox/org/23735tj.jpg]]
+**** Backtracking
+**** Share with others (variants on stop smoking)
+*** Adventure and Gamification
+**** Character
+***** Like this person, don't like this person (facebook)
+**** Instant feedback loop
+**** Adding 'juice' to the goal by adding benefits
+*** Wake-up function (TTS) mobile + sleep suggestion
+** Tree.io
+*** Blog posts
 
-**** http://www.fromupnorth.com/user-interface-inspiration-736/
-**** http://www.fromupnorth.com/user-interface-inspiration-696/ 
-**** http://pinterest.com/rumx/winwag/
-**** Email-like interface
-http://www.fromupnorth.com/user-interface-inspiration-696/
-[[/Users/adam/Dropbox/org/2373G4p.jpg]]
-*** Virality
-**** Triggers
-[[/Users/adam/Dropbox/org/2373gM2.jpg]]
-[[/Users/adam/Dropbox/org/2373TCw.jpg]]
-** Gold UI
-*** TODO News feed naming
-*** HIB Database Password Query
-https://www.hi-research.eu:4455/goldui-portal-prueba/pages/read_enduser.php?user=pasquale&table=end_user&field=password
-*** DONE Use the mobile facebook interface (touch=true param ?)
-CLOSED: [2013-07-30 Tue 14:55]
-*** DONE Redirect from after service login
-CLOSED: [2013-07-30 Tue 01:39]
-*** TODO Add service facebook after key store (if not exists)
-*** DONE Update Key if exists
-CLOSED: [2013-07-30 Tue 01:39]
-*** DONE Prevent duplicate feeds in Pr0spect0r
-CLOSED: [2013-07-27 Sat 15:38]
-*** DONE Open the facebook service page by default
-CLOSED: [2013-07-30 Tue 01:39]
-*** DONE Redirect to the right page after
-CLOSED: [2013-07-30 Tue 01:39]
-*** TODO Redirect to herokuapp
-**** TODO Add params to username and password and redirect
-Need to notify 
-*** DONE Set secretkey on heroku app
-CLOSED: [2013-07-27 Sat 15:40]
-*** TODO Set debug = false on heroku app
-*** TODO Check facebook URLs don't have localhost and have heroku in them
-*** TODO string max length set to screen size
-*** DONE [#A] add entertainment service app link
-CLOSED: [2013-07-26 Fri 13:02]
-*** Get rid of base and main.html
-*** DONE [#A] Get the facebook loading fixed
-CLOSED: [2013-03-19 Tue 20:33]
-*** DONE configuration Parse pull
-CLOSED: [2013-03-19 Tue 23:59]
-*** DONE news feed with tiscali's
-CLOSED: [2013-06-14 Fri 23:47]
-*** DONE Download the photos from an album and preload them
-CLOSED: [2013-02-21 Thu 06:40]
-*** DONE Hook up the home and navigation links
-CLOSED: [2013-02-25 Mon 04:59]
-*** DONE Refactor styling to make it responsive
-CLOSED: [2013-06-14 Fri 23:47]
-*** DONE Make the albums load the correct image sizes
-CLOSED: [2013-06-14 Fri 23:47]
-*** DONE Make facebook feed load from lastAccessed and add infinite scrolling (pagination)
-CLOSED: [2013-06-14 Fri 23:47]
-*** DONE Use router to select feed
-CLOSED: [2013-06-14 Fri 23:47]
-*** DONE Use router to load feed item and load photos
-CLOSED: [2013-06-14 Fri 23:47]
-*** DONE Ensure uniqueness in flask token creator
-CLOSED: [2013-06-14 Fri 23:47]
-*** DONE Add the neccessary permissions to read the home stream
-CLOSED: [2013-02-16 Sat 15:22]
-*** DONE Flask carer forms and foauth service
-CLOSED: [2013-06-14 Fri 23:47]
-CLOCK: [2013-01-08 Tue 21:20]--[2013-01-08 Wed 23:59] => 16:16
-*** UI considerations
-**** Consistent button styling to indicate this is a button required
-**** Higher contrast for certain text (javascript function for this?)
-*** Design document expansion and inclusion of full agreed spec
-*** Flow diagram inclusion of 3rd party and fouath separation
-*** Flow diagram REST API clarification (Parse Datastore)
-*** Datastructure
-*** Codebase development guidelines and setup and documentationI
+*** DONE Create multitenant tree.io running locally using 
+CLOSED: [2013-08-14 Wed 08:46]
+https://django-tenant-schemas.readthedocs.org/en/latest/install.html#basic-settings
+**** <2013-08-11 Sun>
+Finally got it installed and manage.py command sync_schemas working with Django 1.4. 1.5 Didn't even run. I'd like to upgrade to Django 1.5 so will aim to do this before I go any further. I want to make a separate branch to do this so I can merge it into master too
+*** DONE 1.5 Fixes
+*** TODO CLOSED: [2013-08-14 Wed 04:54]
+*** DONE Contact picture
+CLOSED: [2013-08-14 Wed 08:45]
+*** TODO All activity RSS feed only shows status updates
+http://localhost:7000/news/all.rss
+*** TODO Make pluggable modules
+Separate modules into different Git repositories
+*** TODO Fix PDF CSS Styles or export some other way (plugin?)
+*** TODO Report naming of object types
+*** TODO Fix Secret key by <<SECRET_KEY>> replace
+*** TODO Make the live support link on Help work correctly
+*** TODO Cache the django_language
+*** TODO Cache everything using memcache
+*** TODO Default selections in forms
+*** TODO Make module-sidebar-right display normal by default
+*** TODO #comments-likes-box-[object Object] 
+*** TODO Search doesn't work with full-text backend Postgresql
+*** TODO Confirm that CSRF is actually working with new JS on AJAX requests (pentest)
+*** TODO Re-kindle the mailing list and make it marketing and add-on focused
+*** TODO Get testimonials from existing users (use cases)
+*** TODO Update to show how to add email support
+"ok, I figured it out. settings.py must have 127.0.0.1 for EMAIL_SERVER and EMAIL_FROM a valid e-mail on same domain.\r\nI also modifed core/mail.py to use normal Linux mailer and not SMTP.\r\n            smtpObj = smtplib.SMTP('localhost')\r\n            smtpObj.sendmail('<email>', self.toaddr, msg.as_string())\r\n",
+*** TODO Show usage of virtualenv in tree.io
+*** TODO Merge 4heroku from appspot and write a blogpost
+*** DONE Check persistence in treeio postgres database
+CLOSED: [2013-07-20 Sat 12:56]
+*** TODO [#A] Create virtualbox container
+*** TODO Remove FAQ Section in Support on evergreen
+*** TODO Make Blog on evergreen target=_blank
+*** TODO Create installation guides for mac, windows etc
+*** TODO Use https://gist.github.com/funkotron/6025664 to create a treeio PAAS
+*** Installation outline:
+**** TODO Get X4 to review the bash script and rootpasswd etc
+{"default": {"PORT": "49154", "ENGINE": "django.db.backends.postgresql_psycopg2", "HOST": "172.16.42.1", "PASSWORD": "f953ab200d", "NAME": "treeio", "USER": "postgres"}}
+
+1. Set up postgresql
+2. Record password
+3. Record IP
+4. Record port
+5. Start treeio instance
+6. Change root password
+7. Set dbsettings
+8. run python manage.py syncdb --all --no-interactive
+9. run python manage.py createsuperuser
+10. run python manage.py loaddata data.json
+11. run supervisorctl restart treeio
+*** TODO Get Linode instance running automated
+**** New treeio instance
+**** New postgres instance
+**** Initial data
+**** Configuration
+*** DONE Publish Docker file
+CLOSED: [2013-08-07 Wed 14:04]
+*** TODO Write blog updates about new language support (Chinese, Brazilian Portugese and French)
+**** TODO Also send these to the mailing list
+*** TODO Add a mailing list signup form on the marketing website and *inside* treeio itself
 ** How Reel Is Your Love
 *** TODO Complete the survey site
-*** TODO Background Push notification sending and other tasks
-*** TODO Create correctly sized facebook buttons (on mac pro)
+**** TODO Check why results of 0 sent before raj took survey
+**** DONE Include ethnicities
+CLOSED: [2013-08-05 Mon 14:48]
+**** DONE Include sexual orientation
+CLOSED: [2013-08-05 Mon 14:48]
+**** DONE Include levels of education
+CLOSED: [2013-08-05 Mon 14:48]
+**** DONE Make errors show up in the right place
+CLOSED: [2013-08-05 Mon 18:29]
+Currently they are below the item which makes it look like they belong to the item below
+**** DONE Confirm randomization of question ordering
+CLOSED: [2013-08-07 Wed 16:29]
+**** TODO Test
+**** TODO Set up Alembic database migrations
+http://mattupstate.com/python/databases/2012/11/15/database-migrations-with-alembic-sqlalchemy-and-flask.html
+*** TODO Background (celery) Push notification sending and other tasks
+*** TODO Create correctly sized facebook buttons (on mac pro in OSX)
 The recommended movie and the best match can now be posted to the user's wall on Facebook. As for the share button, I would need these final sizes: 75x18 and 150x36. The current button has a white background color which looks quite strange. I guess the background color needs to be transparent.
+Also get the tab icons
 *** TODO [#A] change the mailgun domain
 *** TODO [#A] change iTunes link for the final version
 *** TODO [#A] Add a record of offline group ratings for stats
@@ -376,123 +425,174 @@ CLOSED: [2012-11-28 Wed 18:41]
 
 Ideally once a video has been watched by accessing from a list or it
 has been played using auto play, it won't be auto played in future.
-** Memeplex.io
-*** Introduction
-The more like a formal induction the better the results can expected
-to be, but we need to ensure this does not make the app less intuitive
-or accessible.
-*** TODO Read [[file:~/Dropbox/research/Persuasive_Advertising.pdf][Persuasive Advertising]]
-*** TODO Read [[file:~/Dropbox/research/Advances_in_Advertising_Research.pdf][Advances in Advertising Research]]
-*** TODO Create a system architecture overview
-*** Building a small all-stars team
-**** Psych grad / research student
-**** Business specialist
-**** Designer
-**** Developer / DevOps
-*** Choosing hard problems to solve
-**** Measuring & altering state
-**** Recording & Changing associations
-**** Changing thoughts, perceptions, beliefs and habits
-**** Anxieties, phobias, addictions, lack of motivation
-**** Do this in an unobtrusive, engaging and measurably effective way
-*** Association
-We can change our associations using visual and auditory responses
-which link an experience to another one. This can be used to do many
-things. At it's most basic we can arouse a positive affect and then
-associate the desired meme by displaying them together.
-**** Advertising affects us on a daily basis, why not create our own adverts for ourselves to help us lead a better life?
-***** “Drink Coca-cola, Eat popcorn” -> James Vicary (1957)
-***** McDonalds subliminal on youtube http://www.youtube.com/watch?v=LMzbwa6PvEE
-**** learn
-**** memorise
-**** supermemo / anki memory queue algorithm
-**** change the way we feel about something
-**** change what something means to us
-**** forget something
-**** program a complex set of tasks or behaviours
-in it's more advanced forms classical conditioning can be used to
-build up to complex procedures. in reality this is better done
-within the framework of a story or metaphor.
-*** Categorisation
-Using subliminal motor responses we can measure the categorisation of
-a given meme (experience / memory / concept). An example for stopping
-smoking would be how closely smoking is categorised with fun,
-drinking, socialising, certain times of the day, certain places,
-health, family, money, their identity.
-**** Priming
-Priming has a positive effect, so categorising non-subliminally first
-is recommended.
-http://link.springer.com/article/10.3758%2FBF03196262?LI=true#page-1
-**** Changing
-***** Revivification / focus on meme
-***** feedback echo
-***** cognitive overload (infinite possibilities)
-***** association
-***** suggestion
-*** Focus training
-Attention is the key to learning. By using a variety of techniques we
-can change the internal state of the body and mind to better enable it
-to focus and absorb new information.
-**** Over stimulating
-**** Under stimulating
-**** Fight or Flight response
-**** Bucha effect
-**** Blinkenlights
-**** Binaural beats
-**** Isochronic tones
-**** Fractionation
-**** Feedback loops
-***** Bio-feedback
-****** EEG
-****** ECG
-****** Galvanic Response
-***** Key press reaction time (ideomotor depth scale)
-**** Suggestion
-**** Inductions
-**** Magic Room effect
-**** Belief and expectancy
-*** Suggestions
-**** Direct Suggestion
-**** Indirect Suggestion
-**** Meta Suggestion
-*** Emotion
-**** Revification
-**** Piggy backing on existing emotion
-***** OpenCV Face Rec http://bit.ly/YpNMPf
-***** Sentiment analysis of typed text
-***** Keywords in typed text
-*** Story
-**** Context and Framing
-**** Emotional rollercoaster
-**** Hard loop and soft loop breaks
-*** Visualisation
-**** How to best represent the meme as a symbol + sound?
-**** Symbols as 3D assets
-***** Changes in Time (looped as a function of feedback response)
-***** Colour
-***** Shape
-***** Size
-***** Distance
-***** Quantity
-***** Inetraction with other symbols
-*** API
-**** Option to send to an API
-**** Paid service
-**** Google Glass
-*** Metrics
-Provide positive news. E.g. 3 days in a row / 30% better association
-**** D3.JS
-**** Processing.js
-**** Matplotlib
+** Gold UI
+*** DONE News feed naming
+CLOSED: [2013-08-15 Thu 15:59]
+*** HIB Database Password Query
+https://www.hi-research.eu:4455/goldui-portal-prueba/pages/read_enduser.php?user=pasquale&table=end_user&field=password
+*** DONE Use the mobile facebook interface (touch=true param ?)
+CLOSED: [2013-07-30 Tue 14:55]
+*** DONE Redirect from after service login
+CLOSED: [2013-07-30 Tue 01:39]
+*** DONE Add service facebook after key store (if not exists)
+CLOSED: [2013-08-15 Thu 15:59]
+*** DONE Update Key if exists
+CLOSED: [2013-07-30 Tue 01:39]
+*** DONE Prevent duplicate feeds in Pr0spect0r
+CLOSED: [2013-07-27 Sat 15:38]
+*** DONE Open the facebook service page by default
+CLOSED: [2013-07-30 Tue 01:39]
+*** DONE Redirect to the right page after
+CLOSED: [2013-07-30 Tue 01:39]
+*** DONE Redirect to herokuapp
+CLOSED: [2013-08-15 Thu 15:59]
+**** TODO Add params to username and password and redirect
+Need to notify 
+*** DONE Set secretkey on heroku app
+CLOSED: [2013-07-27 Sat 15:40]
+*** TODO Set debug = false on heroku app
+*** TODO Check facebook URLs don't have localhost and have heroku in them
+*** TODO string max length set to screen size
+*** DONE [#A] add entertainment service app link
+CLOSED: [2013-07-26 Fri 13:02]
+*** Get rid of base and main.html
+*** DONE [#A] Get the facebook loading fixed
+CLOSED: [2013-03-19 Tue 20:33]
+*** DONE configuration Parse pull
+CLOSED: [2013-03-19 Tue 23:59]
+*** DONE news feed with tiscali's
+CLOSED: [2013-06-14 Fri 23:47]
+*** DONE Download the photos from an album and preload them
+CLOSED: [2013-02-21 Thu 06:40]
+*** DONE Hook up the home and navigation links
+CLOSED: [2013-02-25 Mon 04:59]
+*** DONE Refactor styling to make it responsive
+CLOSED: [2013-06-14 Fri 23:47]
+*** DONE Make the albums load the correct image sizes
+CLOSED: [2013-06-14 Fri 23:47]
+*** DONE Make facebook feed load from lastAccessed and add infinite scrolling (pagination)
+CLOSED: [2013-06-14 Fri 23:47]
+*** DONE Use router to select feed
+CLOSED: [2013-06-14 Fri 23:47]
+*** DONE Use router to load feed item and load photos
+CLOSED: [2013-06-14 Fri 23:47]
+*** DONE Ensure uniqueness in flask token creator
+CLOSED: [2013-06-14 Fri 23:47]
+*** DONE Add the neccessary permissions to read the home stream
+CLOSED: [2013-02-16 Sat 15:22]
+*** DONE Flask carer forms and foauth service
+CLOSED: [2013-06-14 Fri 23:47]
+CLOCK: [2013-01-08 Tue 21:20]--[2013-01-08 Wed 23:59] => 16:16
+*** UI considerations
+**** Consistent button styling to indicate this is a button required
+**** Higher contrast for certain text (javascript function for this?)
+*** Design document expansion and inclusion of full agreed spec
+*** Flow diagram inclusion of 3rd party and fouath separation
+*** Flow diagram REST API clarification (Parse Datastore)
+*** Datastructure
+*** Codebase development guidelines and setup and documentationI
+** Simple Social
+*** Domains
+**** newpeep.com
+**** hushweb.com
+**** socialturn.com
+**** hushbase.com
+**** flowsecure.com
+**** mixora.com
+**** hushmate.com
+**** talkergy.com
+**** vialock.com
+**** cryptocastle.com
+**** forthub.com
+**** dropta.com
+**** youinsta.com
+**** youuser.com
+**** rebellink.com
+**** linkclever.com
+**** friendlogic.com
+**** friendsecure.com
+**** grougroup.com
+**** supegroup.com
+**** hushloop.com
+**** cryptorip.com
+**** swaprism.com
+**** sentsafe.com
+**** fetchsafe.com
+**** prismsafe.com
+**** prismlock.com
+**** sharebolt.com
+**** shareknight.com
+**** secretbond.com
+**** alphasoc.com
+**** tausociety.com
+**** compulp.com
+**** forwardsnap.com
+**** indiecake.com
+**** atlastay.com
+**** dominto.com
+**** bitezy.com
 *** Goals
-**** Backtracking
-**** Share with others (variants on stop smoking)
-*** Adventure and Gamification
-**** Character
-***** Like this person, don't like this person (facebook)
-**** Instant feedback loop
-**** Adding 'juice' to the goal by adding benefits
-*** Wake-up function (TTS) mobile + sleep suggestion
+**** Get a minimal encrypted social setup going
+***** TODO How to generate keys
+****** Create a library (fine grained abstraction) for encryption handling with a Protocol
+****** Masterpass encrypts random sjcl ecc key with AES if none on email
+****** Encrypted key is stored on server on email record
+****** Login again pulls and decrypts the key with re-entry of masterpass
+***** TODO Encrypt a piece of content using hybrid encryption
+***** TODO Add Content Security Policy
+http://www.html5rocks.com/en/tutorials/security/content-security-policy/#use-case-1-social-media-widgets
+***** TODO Add TLS
+*** Concepts
+**** What are the key abstractions?
+***** Message
+****** direct? (to:)
+****** medium(twitter,facebook,blog,email,chat)
+****** tags[friends,tech,art]
+****** visibility(fn (filter hasperm? msg))
+****** media[photo,video,audio,game]
+****** text [style]
+****** location
+****** link (bookmarks / embedded)
+**** What do people want in a social network that fb & twitter doesn't provide
+***** Privacy
+****** ECC and AES Hybrid: http://justinthomas.pro/crypto/test.html#encryptedtextalice
+***** Natural interactions (as offline)
+****** [#B] WebRTC with websockets https://webrtc-experiment.appspot.com/
+***** Relevance, interest and personal interactions
+****** Filtering - preferably with database layer - Prismatic Store
+***** A focus on interaction
+****** UI that segments based on interaction (who with, what time, about what)
+****** An abstraction over interaction.
+***** If you want to check up on how your friend is doing, you would use this.
+****** Ability to actively check a friend's feed
+***** If you want to tell people about how you are doing, you would use this.
+****** Ability to selectively publish content. This is the life blood of the system and should be well tuned.
+***** If you want to learn more about things relevant to your interests you would use this.
+****** Filter based on topic / tag
+***** Paid (subscribable) feeds (v2)
+**** Get started with Prismatic's Graph
+**** Use a protocol to define messages
+***** TODO Learn protocols
+**** Try and get Prismatic's Store
+**** Recommended tag for friends to recommend an item
+**** function to add a tag to a message (email or other) map
+**** email direct tagged or subscribers
+**** set small targets
+*** Design
+**** Control Panel view?
+[[/Users/adam/Dropbox/org/2373sjd.jpg]]
+[[/Users/adam/Dropbox/org/23735tj.jpg]]
+
+**** http://www.fromupnorth.com/user-interface-inspiration-736/
+**** http://www.fromupnorth.com/user-interface-inspiration-696/ 
+**** http://pinterest.com/rumx/winwag/
+**** Email-like interface
+http://www.fromupnorth.com/user-interface-inspiration-696/
+[[/Users/adam/Dropbox/org/2373G4p.jpg]]
+*** Virality
+**** Triggers
+[[/Users/adam/Dropbox/org/2373gM2.jpg]]
+[[/Users/adam/Dropbox/org/2373TCw.jpg]]
 ** Winwag.com
 *** MVP
 **** TokBox
@@ -537,39 +637,6 @@ profiles to allow the speaker to select between offers.
 ***** TokBox
 ***** PayPal
 ****** 
-** Tree.io
-*** TODO Merge 4heroku from appspot and write a blogpost
-*** DONE Check persistence in treeio postgres database
-CLOSED: [2013-07-20 Sat 12:56]
-*** TODO [#A] Create virtualbox container
-*** TODO Remove FAQ Section in Support on evergreen
-*** TODO Make Blog on evergreen target=_blank
-*** TODO Create installation guides for mac, windows etc
-*** TODO Use https://gist.github.com/funkotron/6025664 to create a treeio PAAS
-*** Installation outline:
-**** TODO Get X4 to review the bash script and rootpasswd etc
-{"default": {"PORT": "49154", "ENGINE": "django.db.backends.postgresql_psycopg2", "HOST": "172.16.42.1", "PASSWORD": "f953ab200d", "NAME": "treeio", "USER": "postgres"}}
-
-1. Set up postgresql
-2. Record password
-3. Record IP
-4. Record port
-5. Start treeio instance
-6. Change root password
-7. Set dbsettings
-8. run python manage.py syncdb --all --no-interactive
-9. run python manage.py createsuperuser
-10. run python manage.py loaddata data.json
-11. run supervisorctl restart treeio
-*** TODO Get Linode instance running automated
-**** New treeio instance
-**** New postgres instance
-**** Initial data
-**** Configuration
-*** TODO Publish Docker file
-*** TODO Write blog updates about new language support (Chinese, Brazilian Portugese and French)
-**** TODO Also send these to the mailing list
-*** TODO Add a mailing list signup form on the marketing website
 ** Investor.io
 *** DONE Upload the first post production video to Wistia
 CLOSED: [2012-12-09 Sun 00:49] SCHEDULED: <2012-12-07 Fri>
@@ -595,17 +662,25 @@ TRYRETHINK_CONTAINER=$(docker run -d -e HIPACHE_PORT=$HIPACHE_PORT -e REDIS_HOST
 *** Domain purchase API with Dnsimple.com
 *** Later we will handle automatic scaling
 *** Start with Just Tree.io and Quokka, later add more options
-* Logs
-** <2013-07-21 Sun>
-I need to find a new source of my news that is separate from the silicon valley echo chamber. I had the idea of creating a docker PAAS but of course there were many many others who had exactly the same idea.
+* Journal
+** <2013-08-10 Sat>
+Org babel test with python code block
 
-My best bet might be in one of my other passions, distinct from the tech circuit.
+Square function
 
-I want to break the tasks for the paas down so it's easy to have a library of different software. I imagine doing it like Heroku and Flynn, by using GIT repos rather than pre-built images, would be better since it's easier to update the source code. I could mitigate this by allowing the system to 'pin' the source code to a given commit like pip.
+#+name: square
+#+header: :var x=3
+#+begin_src python
+return x*x
+#+end_src
 
-I'd like to cull the excess features on Tree.io despite it being marketed as a suite. It's just too much of a beast to manage all those extra features.
+#+RESULTS: square
+: 9
 
-I want to install fiunal term on linux for my dev work.
+#+call: square(x=6)
+
+#+RESULTS: square(x=6)
+: 36
 
 ** <2013-07-18 Thu>                   :quad:goldui:blog:orgmode:reel:treeio:
 Finalised the treeio docker file and have asked X4 to code review for me. He hasn't returned my email as yet.
@@ -621,6 +696,7 @@ Need to create issues for Tree.io and organize them into milestones
 Tree.io should git pull on first run of instance
 Write a new blog post and email
 Considering an apprenticeship with http://www.8thlight.com/apprenticeship
+* Logs
 ** Clojure
 *** TODO How to data model - protocols?
 Protocol:
@@ -649,6 +725,95 @@ You would have to use another let statement to pass a variable through from one 
 ** Pedestal App
 *** Dataflow Visualisation:
 https://github.com/pedestal/app-tutorial/wiki/Increment-the-Counter#dataflow-visualization
+*** Overview:
+**** Internal data model that holds all info in app
+**** 3 queues
+***** Input queue
+- Receives input messages and passes them to dataflow
+***** 
+Output queue
+- Messages that will be sent to a service i.e. the server
+***** App Model queue
+- Receives messages re changes to data model
+- Changes can be subscribed to by external entities such as the app model consumer. This usually has a rendering function to render deltas on screen.
+**** App Deltas
+***** 6 different types:
+****** :node-create
+Create a new node, one operation for each depth of map
+****** :node-destroy
+****** :value
+Set the value of a node, should use 4arg version to avoid confusion, sets the :details attribute
+****** :attr
+Attributes provide more fine grained control over a node's contents
+****** :transform-enable
+Sets up messages that can be sent back to the application through the input queue.
+****** :transform-destroy
+This is the opposite of :transform-enable. It is designed to stop any messages from being sent to the application input queue. For example, if the user is no longer on the todo form, it doesn't make sense to continue to have the ability for the view function to send messages back to the application input queue that have to do with the todo tasks.
+**** Dataflow
+***** Transform
+ A message comes into the dataflow, and the first thing that processes the message is the transform dataflow components. In order for a transform to handle a message, it must first match a message. For a message to match a transform function, two things must match. The message's type must match the transform's key, and the message's topic must match the transform's output path.
+ 
+When a message is found to match a transform dataflow, the transform function is called. This function gets two values. The first value is the old value that was held at the transform's output path. The second value is the message.
+
+#+BEGIN_SRC clojure
+;; Original data model
+{:todo {:tasks [{:id "id1" :details "Pick up milk"}]}}
+
+;; Message
+{io.pedestal.app.messages/topic [:todo]
+ :io.pedestal.app.messages/type :new-task
+ :details "Write a tutorial"}
+
+;; transform function
+(defn new-task-handler [old-todo msg]
+  (assoc old-todo :tasks
+         (conj (:tasks old-todo)
+               {:details (:details msg) :id (gensym "id")})))
+
+;; Transform dataflow
+[:new-task [:todo] new-task-handler]
+
+
+;; New data model
+{:todo {:tasks [{:id "id1" :details "Pick up milk"}
+                {:id "id2" :details "Write a tutorial"}]}}
+                
+#+END_SRC
+
+So the message is passed to the input queue, and into the dataflow. The only transform component that can handle the message is the one with the key of :new-task and an output task of [:todo]. This is because :new-task matches the message's type, and the [:todo] of the topic matches the transform's output path. Next, the transform function is called, which receives the old todo data along with the message. Inside the function, we are associated the old todo with the tasks. Since tasks is a vector, we are conj'ing the new task onto the old tasks. We automatically create an id, and extract the details from the message and create a map. This is placed in tasks. At the end, the data model is now updated.
+***** Derive
+When data is changed by a transform or otherwise, any derives
+listening for changes on these models are called. Example with
+windchill where either temperature or wind-speed change triggers the
+wind-chill-fn derive to be called to update the :wind-speed value:
+
+#+BEGIN_SRC clojure
+(defn temperature-fn [old-temp msg]
+  (:temperature msg))
+
+(defn wind-speed-fn [old-speed msg]
+  (:wind-speed msg))
+
+(defn wind-chill-fn [old-wind-chill inputs]
+  (let [t (get-in inputs [:new-model :app :sensor :temperature])
+        v (get-in inputs [:new-model :app :sensor :wind-speed])]
+    ;; simple wind chill formula is 0.0817 * (3.71v^0.5 + 5.81 – 0.25 V) * (T – 91.4) + 91.4
+    (+ (* 0.0817 (- (+ (* (Math/sqrt v) 3.71) 5.81) (* 0.25 v)) (- t 91.4)) 91.4)))
+
+(def dataflow
+  {:transform [[:set-temperature [:app :sensor :temperature] temperature-fn]
+               [:set-wind-speed [:app :sensor :wind-speed] wind-speed-fn]]
+   :derive [[#{[:app :sensor :temperature] [:app :sensor :wind-speed]} [:app :values :wind-chill] wind-chill-fn]]})
+#+END_SRC
+***** Continue
+Continue functions are designed to act as a kind of validation on the data model. It can help make sure the transforms and derives are leaving the data model in a valid state. It does this by sending internal messages that are not visible to the outside world.
+
+Continue dataflow components allow us to de-couple any logic from
+inside the dataflow such as deciding when to run two separate
+processes by adding messages to an internal queue. They run after the
+derive functions have been completed.
+
+First, the transform functions direclty alter the data model by using the message. Next, the derive functions get a chance to run, assuming their inputs change. The derive functions also update the data model. This can lead to other derive functions being called, because it's possible for a derive function to depend on another one. However, at some point, all the derive functions will stop running. Then, it becomes time for the continue functions to run. Continue functions, assuming their inputs change, have the opportunity to create new messages that are put on an internal queue. Each of these messages will be processed, one by one, just like the messages from the normal app input queue. Once all the messages have been processed, the data model will be left in its new, consistent state.
 ** Tech
 *** TODO watch PeepCode Emacs video                                  :tech:
 *** TODO Do more codeschool classes
@@ -773,6 +938,20 @@ http://rawdust.com/rotten/rotten-tomatoes-audience-scores.htm
 **** Automated threshold downloads
 Download any media on the feeds if it matches certain criteria
 **** Email logs of downloads completed
+*** Artificial Intelligence Berkeley Course
+https://courses.edx.org/courses/BerkeleyX/CS188.1x/2013_Spring/courseware
+**** Search problems
+Problems can be split into *reflex agents* and *planning agents*.
+***** Reflex agents just have a big table of actions to do in a given state.
+***** Planning problems use search to plan ahead (consider all possible routes and choose shortest)
+****** uninformed search methods
+******* DFS
+******* BFS
+******* Uniform-Cost search
+****** informed search methods
+**** State Space Graph and Search Trees
+***** Interesting problems have extremely large search space
+***** 
 ** Tech Setup
 *** Things ToDo
 **** TODO Find details for and setup VPN
@@ -859,6 +1038,8 @@ Added Dropbox to the ~/.xinitrc as backgrounded.
 Modified the GB keyboard map to include the numbersign and fix the
 tilde position etc. Created the file
 ~/Dropbox/config/usr_share_X11_xkb_symbols_gb with these updates
+<2013-08-06 Tue> Update: use xev and xmodmap as shown here
+http://askubuntu.com/a/24930
 *** QTile WM
 Installed the QTile window manager with a default configuration from a
 git repository.
@@ -1205,7 +1386,6 @@ They're all complementary. Sometimes it's advantageous to focus on one type or t
 
   Source: [2013-08-01 Thu], [[http://www.littlebrotherfoundation.org/wp-content/uploads/2012/09/clojure.png][clojure.png (PNG Image, 3500×3783 pixels)]]
 
-  
 ** 10 Tips for Sales on Websites from PayPal
 Two of the biggest factors in success for online retailers are:
 

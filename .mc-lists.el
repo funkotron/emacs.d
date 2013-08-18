@@ -6,7 +6,11 @@
 (setq mc/cmds-to-run-for-all
       '(
         evil-change
+        evil-end-of-line
         evil-forward-char
+        evil-forward-word-begin
+        evil-insert
+        evil-normal-state
         ))
 
 (setq mc/cmds-to-run-once

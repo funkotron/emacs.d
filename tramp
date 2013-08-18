@@ -1,6 +1,6 @@
-;; -*- emacs-lisp -*- <13/06/11 23:02:41 /Users/adam/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <13/08/10 01:07:14 /home/a/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
-((["scpc" nil "main.clj" nil]
+((["scpc" nil "core.clj" nil]
   nil))
