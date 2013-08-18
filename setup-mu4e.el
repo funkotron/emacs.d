@@ -123,7 +123,7 @@
      (evil-make-overriding-map mu4e-headers-mode-map 'normal t)
      
      (evil-add-hjkl-bindings mu4e-view-mode-map 'normal
-       "J" 'mu4e~headers-jump-to-maildir
+       "g" 'mu4e~headers-jump-to-maildir
        "u" 'mu4e-update-index
        "j" 'evil-next-line
        "C" 'mu4e-compose-new
@@ -137,7 +137,7 @@
      ;; "q" 'mu4e-raw-view-quit-buffer)
      
      (evil-add-hjkl-bindings mu4e-headers-mode-map 'normal
-       "J" 'mu4e~headers-jump-to-maildir
+       "g" 'mu4e~headers-jump-to-maildir
        "u" 'mu4e-update-index
        "j" 'evil-next-line
        "C" 'mu4e-compose-new
@@ -145,7 +145,7 @@
        )
      
      (evil-add-hjkl-bindings mu4e-main-mode-map 'normal
-       "J" 'mu4e~headers-jump-to-maildir
+       "g" 'mu4e~headers-jump-to-maildir
        "u" 'mu4e-update-index
        "j" 'evil-next-line
        "RET" 'mu4e-view-message)
