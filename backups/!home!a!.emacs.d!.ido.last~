@@ -2,29 +2,73 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/a/workspace/" . "brainfuck/")
+ ("/home/a/workspace/goldclient/js/goldui/" . "views/")
+ ("/home/a/workspace/goldclient/js/" . "goldui/")
+ ("/home/a/workspace/goldclient/" . "js/")
+ ("/home/a/workspace/lib/whelmed/src/whelmed/" . "songs/")
+ ("/home/a/workspace/lib/whelmed/src/" . "whelmed/")
+ ("/home/a/workspace/lib/whelmed/" . "src/")
+ ("/home/a/workspace/lib/" . "whelmed/")
+ ("/home/a/workspace/music/src/" . "music/")
+ ("/home/a/workspace/music/" . "src/")
+ ("/home/a/workspace/" . "goldclient/")
  ("/home/a/" . "workspace/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/a/workspace/brainfuck/"
+ "/home/a/workspace/goldclient/js/goldui/views/"
+ "/home/a/workspace/goldclient/templates/"
+ "/home/a/workspace/lib/whelmed/src/whelmed/songs/"
+ "/home/a/workspace/music/src/music/"
  "/home/a/.emacs.d/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "."
+ "FeedListView.js"
+ "MenuView.js"
+ "feedlist.html"
+ "SKA.clj"
+ "core.clj"
  "init.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/a/workspace/brainfuck/" (21005 7989) ".gitignore" "src/" "resources/" "../" "README.md" "project.clj" "./" "doc/" "test/")
+ ("/home/a/workspace/goldclient/js/goldui/views/" (21021 58889) "../" "./" "MenuView.js" "FeedListView.js" "LogInView.js")
 
- ("/home/a/workspace/" (21005 7989) "goldheroku/" "treeio/" "goldclient/" "pedestal-app-tutorial/" "adama1.com/" "../" "reelsurvey/" "pr0spect0r/" "lib/" "pedestal-todo/" "krony/" "treeiobak/" "treeblog/" "brainfuck/" "adamawan.com/" "reelapi/" "./" "app-tutorial/")
+ ("/home/a/workspace/goldclient/js/goldui/" (20976 18468) "models/" "views/" "views.js" "AppRouter.js" "../" "env.js" "parse.js" "lib/" "services/" "RegionManager.js" "main.js" "underscore.js" "./" "collections/")
 
- ("/home/a/" (21005 7989) ".dmenu_cache" ".gconf/" ".gnome2_private/" ".zcompdump" "perl5/" ".ICEauthority" ".pgadmin3" ".viminfo" "Pictures/" ".bash_profile" ".lein/" ".mozilla/" ".xinitrc" ".recentf" ".Xauthority" "pgadmin.log" ".i3/" ".Xresources" ".mplayer/" ".gvfs/" ".ssh/" ".Xmodmap" "../" "workspace/" ".cache/" ".gphoto/" ".rvm/" ".Xauthority.PLUW1W" ".local/" ".gnome2/" ".icons/" ".bashrc" ".dropbox-dist/" ".cpan/" "Templates/" ".Xmodmap.crazy" ".fim_history" ".ido.last" "Maildir/" ".bash_logout" ".TREEIO_PGLITE_VOLUME_ID" "lib/" "backlightlog" ".macromedia/" ".pki/" ".zsh-update" "Desktop/" ".profile" ".gstreamer-0.10/" ".offlineimap/" ".dbus/" ".wicd/" "bm" "#.zshrc#" "am" ".config/" "Documents/" ".mu/" ".thumbnails/" "Music/" "acpi.log" ".zprofile" ".adobe/" ".bash_history" "Videos/" "Public/" ".psql_history" ".gimp-2.8/" ".emacs.d/" ".TREEIO_PGLITE_PWD" ".authinfo" ".dmrc" "bin/" ".gem/" ".offlineimaprc.swp" ".Skype/" ".offlineimaprc" ".cpanm/" "examples.desktop" "boo.ascii" "etc/" ".zsh_history" "treetop.pem" ".gitconfig" "Downloads/" ".vim/" ".zshrc" ".xsession-errors" "Dropbox/" ".dropbox/" ".compiz/" ".xsession-errors.old" "./" ".heroku/" ".m2/" ".gnupg/" ".xbindkeysrc" "hi.py" ".netrc" ".tmux.conf" "treeio.pem" ".fehbg" ".pip/" "fonts/" "submo/" ".lesshst")
+ ("/home/a/workspace/goldclient/js/" (20976 18468) "boilerplate.js" "../" "require-jquery.js" "./" "goldui/")
+
+ ("/home/a/workspace/goldclient/templates/" (21021 57816) "base.html" "facebook_item.html" "rss.html" "../" "facebook_image.html" "settings.html" "facebook.html" "control_overlay.html" "feedlist.html" "menu.html" "login.html" "settings_question.html" "./" "rss_item.html")
+
+ ("/home/a/workspace/goldclient/" (21002 23988) ".gitignore" "channel.html" "config/" "templates/" "documentation/" "../" "css/" "goldui.tar" ".git/" "js/" "README.markdown" "images/" "index.html" "./")
+
+ ("/home/a/" (21021 57478) ".dmenu_cache" ".gconf/" ".gnome2_private/" ".atari/" ".gksu.lock" ".zcompdump" "perl5/" ".ICEauthority" ".pgadmin3" ".viminfo" "Pictures/" ".bash_profile" ".lein/" ".mozilla/" ".xinitrc" ".recentf" ".Xauthority" "pgadmin.log" ".i3/" ".Xresources" ".mplayer/" ".odesk/" ".atari800.cfg" ".ssh/" ".Xmodmap" "../" "workspace/" ".cache/" ".gphoto/" ".rvm/" ".Xauthority.PLUW1W" ".local/" ".gnome2/" ".icons/" ".bashrc" ".dropbox-dist/" ".cpan/" "Templates/" ".java/" ".Xmodmap.crazy" ".fim_history" ".ido.last" "Maildir/" ".bash_logout" ".TREEIO_PGLITE_VOLUME_ID" "lib/" "backlightlog" "2013-08-18-013345_1440x900_scrot.png" ".macromedia/" ".pki/" ".zsh-update" "Desktop/" ".profile" ".gstreamer-0.10/" ".offlineimap/" ".dbus/" ".wicd/" "bm" "#.zshrc#" "am" ".config/" "Documents/" ".mu/" ".thumbnails/" "Music/" "acpi.log" ".zprofile" ".adobe/" ".bash_history" "Videos/" ".Xmodmap2" ".overtone/" "Public/" ".psql_history" ".gimp-2.8/" ".emacs.d/" "hsbcscrape.py" ".TREEIO_PGLITE_PWD" ".authinfo" ".dmrc" "bin/" ".gem/" ".Skype/" ".offlineimaprc" ".cpanm/" "examples.desktop" "boo.ascii" "etc/" ".zsh_history" "treetop.pem" ".gitconfig" "Downloads/" "atari800.txt" ".vim/" ".zshrc" ".xsession-errors" "Dropbox/" ".dropbox/" ".compiz/" ".xsession-errors.old" "./" ".heroku/" "hello.png" ".m2/" ".gnupg/" ".xbindkeysrc" "hi.py" ".netrc" ".tmux.conf" "dump.html" ".sdirs" "treeio.pem" ".fehbg" ".pip/" "fonts/" "submo/" ".lesshst")
+
+ ("/home/a/workspace/lib/whelmed/" (21021 12885) ".gitignore" "src/" "../" "LICENCE" ".git/" "README.md" "project.clj" "target/" "./" "adios.wav")
+
+ ("/home/a/workspace/lib/whelmed/src/whelmed/songs/" (21021 12819) "sidhe.clj" ".#SKA.clj" "../" "at_all.clj" "SKA.clj" "#SKA.clj#" "OOOOFF.clj" "west.clj" "dolorem_ipsum.clj" "./" "love_and_fear.clj")
+
+ ("/home/a/workspace/lib/whelmed/src/whelmed/" (21021 12318) "songs/" "../" "play.clj" "contrib/" "instrument.clj" "melody.clj" "./")
+
+ ("/home/a/workspace/lib/whelmed/src/" (21021 12318) "whelmed/" "../" "./")
+
+ ("/home/a/workspace/lib/" (21021 12300) "whelmed/" "pedestal-app-tutorial/" "../" "pedestal-todo/" "search.zip" "search/" "dryscrape/" "pelican-themes/" "./" "app-tutorial/")
+
+ ("/home/a/workspace/music/" (21021 388) ".gitignore" "src/" "resources/" "../" ".git/" "README.md" "hs_err_pid26678.log" "project.clj" ".lein-repl-history" "target/" "pom.xml" "./" "doc/" "test/")
+
+ ("/home/a/workspace/music/src/music/" (21021 1493) "../" "core.clj" "./")
+
+ ("/home/a/workspace/music/src/" (21020 62345) "../" "music/" "./")
+
+ ("/home/a/workspace/" (21020 62345) "goldheroku/" "treeio/" "goldclient/" "adama1.com/" "../" "reelsurvey/" "pr0spect0r/" "lib/" "music/" "hsbc2.py" "krony/" "treeiobak/" "treeblog/" "brainfuck/" "adamawan.com/" "reelapi/" "./")
+
+ ("/home/a/Dropbox/" (21015 32911) "investment/" "treeio/" "config/" "org/" "shrink/" "investorio/" "PicoCode/" "aran/" "../" "research/" "reelsurvey/" "Camera Uploads/" "music/" "reel/" "Documents/" "boot/" "wallpaper/" "webdev/" "HRIYR/" "phix/" "Public/" "blog/" "Sparrow/" "art/" "yosuke/" ".dropbox" "./" "Photos/" "goldui/" "movies/" "Raj Persaud/" "winwag/" "fonts/" "property/" ".dropbox.cache/" "workspace_backup/")
+
+ ("/home/a/Dropbox/org/" (21020 56621) "index (air's conflicted copy 2012-12-05).org" "Dad's Photo Website.xoj" "index.org_archive" "acting_voice.scribe/" "index.org" "cv.out" "reellove_todo.ps" "to_cancel.scribe/" "index.tex" "2010-12-01-Note-15-10-Graphs-Outline.xoj" "Meta4.org" "shopping.txt" "2011-01-15-Note-15-47.xoj" "#work.org#" "index (air's conflicted copy 2013-02-10).org" "work.org" "yearplanner.xoj" "../" "reellove_todo.txt" "index.org~" "Meta4.org~" "cv.aux" "texput.log" "winwag_tools_choice.org" "plan.markdown" "#hol.org#" "23735tj.jpg" "winwag_user_stories" "work (aeterna's conflicted copy 2011-09-07).org" "winwag.org~" "ZimNotes/" "replace.txt" "cv/" "work (aeterna's conflicted copy 2011-09-07).org~" "missfont.log" "index.org_archive~" "agendaout.ps" "cv.tex" "todo.txt" "winwag-uml.xoj" "photography/" "systema.org" "systema (aeterna's conflicted copy 2011-09-07).org" "bizideas.org" "2373fZX.jpg" "2373TCw.jpg" "gipunique" "Graphs UML.xoj" "filestore_workflow.org~" "index.html~" "Graphs UML.pdf" "todo.tmp" "cv.log" "projects.org~" "systema.org~" "AI Architecture.xoj" "cv.org" "sites.org" "systema (aeterna's conflicted copy 2011-09-07).org~" "2010-12-16-ASTAR Webservices.pdf" "pentesting.org~" "scores.org" "winwag.org" "morning (aeterna's conflicted copy 2011-09-07).org" "vdeli.org" "Semantic.xoj" "GodMode" "winwag-uml.pdf" "work (z4u's conflicted copy 2011-05-15).org" "projects.org" "vail_todo.org" "p.txt" "2373gM2.jpg" "hol.tex" "226229oT-thumb.png" "2373sjd.jpg" "vdeli.org~" "work (z4u's conflicted copy 2011-05-15).org~" "Treeio-FrontPage-Mockup.xoj" "morning (aeterna's conflicted copy 2011-09-07).org~" "scores.html" "report.txt" "hol.txt" "morning.org" "morning.org~" "2010-12-16-ASTAR Webservices.xoj" "2011-01-17-Note-20-36.xoj" "mikepitch.org~" "bizideas.org~" "2373G4p.jpg" "scores.html~" "home.org" "index.html" "reellove_todo.pdf" "./" "hol.org~" "work.org~" "psy.org~" "hol.org" "pentesting.org" "vail_todo.org~" "psy.org" "filestore_workflow.org" "index (Adams-MacBook-Pro-2's conflicted copy 2013-01-20).org" "13pillarsnutshell.pdf.xoj" "done.txt" "TODOtoday.xoj" "index.txt" "agenda.txt" "#bizideas.org#" "htvideonotes.org" "evening.org" "tree/" "mikepitch.org" "226229oT.png" "raj/")
 
  ("/home/a/.emacs.d/" (20997 1694) "eshell/" "places" "setup-mu4e.el" ".gitignore" ".mc-lists.el" "emacs-pastebin/" ".smex-items" "projectile-20130615.1831/" "rainbow-delimiters/" "org-element/" "litable/" "setup-secrets.el" "org-8.0.7/" "../" "mu4e/" "nrepl-inspect/" "framemove/" ".ido.last" ".git/" "el-get/" "url/" "elpa/" "resize.el" "tramp" "emacs-color-theme-solarized/" "ac-comphist.dat" "projectile-bookmarks.eld" "nrepl-history" "undo-tree/" "init.el" "auto-save-list/" "etc/" ".emacs.desktop" "1908Isc.jpg" "org-sync/" "./" "secrets.el.gpg" "backups/" "bookmarks")
 )

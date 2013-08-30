@@ -1,51 +1,131 @@
 * Todo
+** DONE Add maya to the itunes connect profile and check any others added
+CLOSED: [2013-08-29 Thu 13:54]
+*** <2013-08-23 Fri> Waiting on rest of the test users to register devices on testflight
+** STARTED Write some blogposts in orgmode (export as markdown to pelican)
+*** TODO Create teaser videos on blog and full how to's on bitcast.io
+** TODO Mailchimp integration for ReelAPI and ReelSurvey
+** STARTED Hire a Project manager on oDesk
+** STARTED Continue AI Course
+https://courses.edx.org/courses/BerkeleyX/CS188.1x/2013_Spring/courseware/Week_2/Lecture_3_Informed_Search/
 ** TODO Move router inside of br0 and use for wireless only
 *** TODO Check firewall on eth0
 *** TODO Set eth0 to dynamic or static IP?
+*** TODO Run hardening on server
 ** TODO Github orgmode sync
+** TODO Trello orgmode sync
 ** STARTED Make zau public
 ** TODO Replace Dropbox with http://SeaCloud.cc
 ** TODO Bind C-u to move up page in Evil mode
 ** TODO Extract files after transmission download - automate 
 ** TODO New business cards with mobile and blog
-** STARTED Write some blogposts in orgmode (export as markdown to pelican)
+Make Tree.io a webdev agency
 ** TODO Research home automation for pops
 ** STARTED Complete Code School courses, js, git & design, then cancel
 ** TODO Complete Algorithms coursera
 ** STARTED Read tree.io messages using key from OSX partition
 Commit from AWS then mod code locally
 ** STARTED Ask rita for photo to scanscanner may be unplugged
-** TODO Make budget
 ** TODO book dentist
 ** TODO book gp
-** TODO order mat for ground work
 ** STARTED Complete Pedestal App Tutorial
-** CANCELLED Ensure vodafone has been cancelled and refund, manager etc.
-CLOSED: [2013-08-14 Wed 15:43]
-record call and check with standards agency
 ** TODO Cancel 3 contract
+** TODO Cancel iPad contract
 ** TODO Make an automatic agenda web page using pedestal
-** TODO Get mu4e set up correctly
 ** STARTED RabbitMQ notifications service
      Ping servers
-** TODO Buy osprey bag
-http://www.spikeoutdoors.co.uk/osprey-pixel.html?gclid=CJG9h6uM87gCFUVb3god2xIAkw
-http://www.cotswoldoutdoor.com/osprey-escapist-30-rucksack-62110603?id_colour=108
-http://www.cotswoldoutdoor.com/osprey-escapist-25-rucksack-62110602?id_colour=108
-http://www.cotswoldoutdoor.com/osprey-escapist-25-rucksack-62110602?id_colour=108
 * Projects
+** Tree.io
+*** Blog posts
+**** Docker install
+**** Django 1.5 upgrade
+**** Case studies
+*** STARTED Move evergreen into treeio
+*** STARTED Create Plan and complete Client model
+**** payment history
+**** activity history
+**** plan
+**** number of users override
+**** active modules override
+**** support plan SLA
+**** static files limit storage
+**** features enabled override specific
+*** TODO Get separate static files on S3
+*** TODO Modularise treeio and make it pluggable using Plan model
+*** TODO Build a control panel
+*** TODO Add purchasing inside treeio (generic for purchasing other shit too)
+*** TODO Check email setup using IMAP
+*** TODO Notifications using Mailgun
+*** TODO [#A] Add a mailing list signup form on the marketing website and *inside* treeio itself
+*** TODO All activity RSS feed only shows status updates
+http://localhost:7000/news/all.rss
+*** TODO Make pluggable modules
+Separate modules into different Git repositories
+*** TODO Fix PDF CSS Styles or export some other way (plugin?)
+*** TODO Report naming of object types
+*** TODO Fix Secret key by <<SECRET_KEY>> replace
+*** TODO Make the live support link on Help work correctly
+*** TODO Cache the django_language
+*** TODO Cache everything using memcache
+*** TODO Default selections in forms
+*** TODO Make module-sidebar-right display normal by default
+*** TODO #comments-likes-box-[object Object] 
+*** TODO Search doesn't work with full-text backend Postgresql
+*** TODO Confirm that CSRF is actually working with new JS on AJAX requests (pentest)
+*** TODO Re-kindle the mailing list and make it marketing and add-on focused
+*** TODO Get testimonials from existing users (use cases)
+*** TODO Update to show how to add email support
+"ok, I figured it out. settings.py must have 127.0.0.1 for EMAIL_SERVER and EMAIL_FROM a valid e-mail on same domain.\r\nI also modifed core/mail.py to use normal Linux mailer and not SMTP.\r\n            smtpObj = smtplib.SMTP('localhost')\r\n            smtpObj.sendmail('<email>', self.toaddr, msg.as_string())\r\n",
+*** DONE Show usage of virtualenv in tree.io
+CLOSED: [2013-08-28 Wed 17:24]
+*** TODO Merge 4heroku from appspot and write a blogpost
+*** DONE Check persistence in treeio postgres database
+CLOSED: [2013-07-20 Sat 12:56]
+*** TODO [#A] Create virtualbox container
+*** TODO Remove FAQ Section in Support on evergreen
+*** TODO Make Blog on evergreen target=_blank
+*** TODO Create installation guides for mac, windows etc
+*** TODO Use https://gist.github.com/funkotron/6025664 to create a treeio PAAS
+*** Installation outline:
+**** TODO Get X4 to review the bash script and rootpasswd etc
+{"default": {"PORT": "49154", "ENGINE": "django.db.backends.postgresql_psycopg2", "HOST": "172.16.42.1", "PASSWORD": "f953ab200d", "NAME": "treeio", "USER": "postgres"}}
+
+1. Set up postgresql
+2. Record password
+3. Record IP
+4. Record port
+5. Start treeio instance
+6. Change root password
+7. Set dbsettings
+8. run python manage.py syncdb --all --no-interactive
+9. run python manage.py createsuperuser
+10. run python manage.py loaddata data.json
+11. run supervisorctl restart treeio
+*** TODO Get Linode instance running automated
+**** New treeio instance
+**** New postgres instance
+**** Initial data
+**** Configuration
+*** DONE Publish Docker file
+CLOSED: [2013-08-07 Wed 14:04]
+*** TODO Write blog updates about new language support (Chinese, Brazilian Portugese and French)
+**** TODO Also send these to the mailing list
 ** Game
 *** Inspiration
+**** Worms
+**** C&C RA
+**** Warcraft 2
 **** Commander Keen
 **** RAF Flying Game
 **** Atari Box Pacman-esque 2player Arcade Swag Game
 **** GTA2
-**** Worms
 **** Drugwars
 **** Mario
-**** Warcraft 2
-**** C&C RA
 **** Toe Jam & Earl
+**** Myst
+**** Stocks Investment
+*** Game that develops relationships via metaphorical character
+Tamagotchi style interaction of players - Alter ego, story and catharsis.
 ** Memeplex.io
 *** Introduction
 The more like a formal induction the better the results can expected
@@ -164,72 +244,8 @@ Provide positive news. E.g. 3 days in a row / 30% better association
 **** Instant feedback loop
 **** Adding 'juice' to the goal by adding benefits
 *** Wake-up function (TTS) mobile + sleep suggestion
-** Tree.io
-*** Blog posts
-
-*** DONE Create multitenant tree.io running locally using 
-CLOSED: [2013-08-14 Wed 08:46]
-https://django-tenant-schemas.readthedocs.org/en/latest/install.html#basic-settings
-**** <2013-08-11 Sun>
-Finally got it installed and manage.py command sync_schemas working with Django 1.4. 1.5 Didn't even run. I'd like to upgrade to Django 1.5 so will aim to do this before I go any further. I want to make a separate branch to do this so I can merge it into master too
-*** DONE 1.5 Fixes
-*** TODO CLOSED: [2013-08-14 Wed 04:54]
-*** DONE Contact picture
-CLOSED: [2013-08-14 Wed 08:45]
-*** TODO All activity RSS feed only shows status updates
-http://localhost:7000/news/all.rss
-*** TODO Make pluggable modules
-Separate modules into different Git repositories
-*** TODO Fix PDF CSS Styles or export some other way (plugin?)
-*** TODO Report naming of object types
-*** TODO Fix Secret key by <<SECRET_KEY>> replace
-*** TODO Make the live support link on Help work correctly
-*** TODO Cache the django_language
-*** TODO Cache everything using memcache
-*** TODO Default selections in forms
-*** TODO Make module-sidebar-right display normal by default
-*** TODO #comments-likes-box-[object Object] 
-*** TODO Search doesn't work with full-text backend Postgresql
-*** TODO Confirm that CSRF is actually working with new JS on AJAX requests (pentest)
-*** TODO Re-kindle the mailing list and make it marketing and add-on focused
-*** TODO Get testimonials from existing users (use cases)
-*** TODO Update to show how to add email support
-"ok, I figured it out. settings.py must have 127.0.0.1 for EMAIL_SERVER and EMAIL_FROM a valid e-mail on same domain.\r\nI also modifed core/mail.py to use normal Linux mailer and not SMTP.\r\n            smtpObj = smtplib.SMTP('localhost')\r\n            smtpObj.sendmail('<email>', self.toaddr, msg.as_string())\r\n",
-*** TODO Show usage of virtualenv in tree.io
-*** TODO Merge 4heroku from appspot and write a blogpost
-*** DONE Check persistence in treeio postgres database
-CLOSED: [2013-07-20 Sat 12:56]
-*** TODO [#A] Create virtualbox container
-*** TODO Remove FAQ Section in Support on evergreen
-*** TODO Make Blog on evergreen target=_blank
-*** TODO Create installation guides for mac, windows etc
-*** TODO Use https://gist.github.com/funkotron/6025664 to create a treeio PAAS
-*** Installation outline:
-**** TODO Get X4 to review the bash script and rootpasswd etc
-{"default": {"PORT": "49154", "ENGINE": "django.db.backends.postgresql_psycopg2", "HOST": "172.16.42.1", "PASSWORD": "f953ab200d", "NAME": "treeio", "USER": "postgres"}}
-
-1. Set up postgresql
-2. Record password
-3. Record IP
-4. Record port
-5. Start treeio instance
-6. Change root password
-7. Set dbsettings
-8. run python manage.py syncdb --all --no-interactive
-9. run python manage.py createsuperuser
-10. run python manage.py loaddata data.json
-11. run supervisorctl restart treeio
-*** TODO Get Linode instance running automated
-**** New treeio instance
-**** New postgres instance
-**** Initial data
-**** Configuration
-*** DONE Publish Docker file
-CLOSED: [2013-08-07 Wed 14:04]
-*** TODO Write blog updates about new language support (Chinese, Brazilian Portugese and French)
-**** TODO Also send these to the mailing list
-*** TODO Add a mailing list signup form on the marketing website and *inside* treeio itself
 ** How Reel Is Your Love
+*** TODO Make sure both players have seen the same films
 *** TODO Complete the survey site
 **** TODO Check why results of 0 sent before raj took survey
 **** DONE Include ethnicities
@@ -491,6 +507,17 @@ CLOCK: [2013-01-08 Tue 21:20]--[2013-01-08 Wed 23:59] => 16:16
 *** Flow diagram REST API clarification (Parse Datastore)
 *** Datastructure
 *** Codebase development guidelines and setup and documentationI
+** Bitcasts
+*** Django Unchained: Introduction to Django
+**** Project Overview
+***** 
+**** Installing django
+***** pip
+***** django-admin.py startproject django_unchained
+***** python manage.py runserver
+***** 
+*** Hip Flask: Introduction to Flask
+**** 
 ** Simple Social
 *** Domains
 **** newpeep.com
@@ -663,6 +690,24 @@ TRYRETHINK_CONTAINER=$(docker run -d -e HIPACHE_PORT=$HIPACHE_PORT -e REDIS_HOST
 *** Later we will handle automatic scaling
 *** Start with Just Tree.io and Quokka, later add more options
 * Journal
+** Options
+*** Live in Tregunter
+**** Offpeak harbor
+50% 775 387
+155 / month or 175 / month
+**** Piaggio
+1000 + 500 (extras)
+**** Club workspace
+£200 / month
+*** Live in Bezier
+**** Studio Flat
+£2000 / month
+**** Shoreditch House
+https://www.shoreditchhouse.com/membership
+£700 a year
+**** Club workspace
+£200 / month
+
 ** <2013-08-10 Sat>
 Org babel test with python code block
 
@@ -697,6 +742,17 @@ Tree.io should git pull on first run of instance
 Write a new blog post and email
 Considering an apprenticeship with http://www.8thlight.com/apprenticeship
 * Logs
+** Gym / Member's Club
+Main reasons for joining one are swimming pool, networking, nice
+atmosphere and environment and place to work. Harbor club also has
+tennis, pilates, good gym, bar and steam sauna etc. Soho house has
+very good networking opportunities and includes many other locations.
+King's road is expensive at £30 just for swimming but it's a hell of
+a lot cheaper than 100whatever for Harbor club. Harbor club is
+closer, near climbing wall and fulham broadway.
+*** Harbor Club
+*** King's road sports centre
+*** Soho house & shoreditch house etc
 ** Clojure
 *** TODO How to data model - protocols?
 Protocol:
@@ -722,6 +778,9 @@ Unquotes and expands the unquoted list into the current list:
 ***** This is to prevent naming conflicts with locals and other symbols defined outside or further inside a macro
 ***** Auto-gensyms are only the same within the same syntax-quoted form.
 You would have to use another let statement to pass a variable through from one to the other
+*** Clojure MindMap 
+  Source: [2013-08-01 Thu], [[http://www.littlebrotherfoundation.org/wp-content/uploads/2012/09/clojure.png][clojure.png (PNG Image, 3500×3783 pixels)]]
+
 ** Pedestal App
 *** Dataflow Visualisation:
 https://github.com/pedestal/app-tutorial/wiki/Increment-the-Counter#dataflow-visualization
@@ -944,14 +1003,61 @@ https://courses.edx.org/courses/BerkeleyX/CS188.1x/2013_Spring/courseware
 Problems can be split into *reflex agents* and *planning agents*.
 ***** Reflex agents just have a big table of actions to do in a given state.
 ***** Planning problems use search to plan ahead (consider all possible routes and choose shortest)
-****** uninformed search methods
-******* DFS
-******* BFS
-******* Uniform-Cost search
-****** informed search methods
+****** Fringe = plans to do next
+****** Time complexity = number of nodes visited
+****** Space complecity = how big fringe can get
+****** Primarily differ in the order of the fringe
+**** uninformed search methods
+***** DFS
+Go straight down (vertically search)
+Less space (b*m) Big time (b^m)
+***** BFS
+Go across (horizontal search)
+Better time generally as it tries easiest ones first. Large space
+**** informed search methods
+***** Uniform-Cost search
+****** Consider the weightings on the tree
+****** Like tortoise
+***** Greedy Search
+****** Only considers the heuristic (not the cost)
+****** Like hare
+***** A*
+****** Combines UCS and Greedy (Like both tortoise and hare)
+****** Sums them together for forward and backward cost
+****** Backward cost is the cost all the way back
+****** forward is the heuristic
+**** Heuristic
+***** Heuristic can fuck things up if it is pessimistic
+***** You may never go down good routes if you get the heuristic wrong
+***** But as your heuristic gets closer to true cost, you do less work
+***** Admissibility
+Heuristic is admissible if it always underestimates the cost (though
+hopefully not by too much). For pacman a heuristic of the manhattan
+distance (dx+dy) is admissible because the walls will make sure it is
+never easier than that. Taking the cost of one part of a solution is
+fine because there will be other parts which add cost.
+***** Closed Set No-Revisit
+Keep a set of visited nodes and refuse to expand them again. This can
+give wrong solutions even with admissible heuristics therefore we
+need consistency.
+***** Consistency
+The *difference* in heuristics between two nodes must be less than or
+equal to the cost between them. This is a stronger restriction than 
+admissibility and will ensure closed set nodes revisit prevention 
+doesn't cause errors.
+
 **** State Space Graph and Search Trees
 ***** Interesting problems have extremely large search space
-***** 
+***** General Tree Search
+***** Pick an item off the fringe (all plans that may yet work)
+***** Exploration strategy: which plan in fringe to do next
+**** State space graph with costs as weights (Pankace Problem)
+[[/home/a/Dropbox/org/226229oT-thumb.png]] 
+[[/home/a/Dropbox/org/226229oT.png][/home/a/Dropbox/org/226229oT.png]]
+**** All algorithms can operate off a single priority queue
+**** Heuristics
+Heuristics are a function that take a state and return a number. It
+tells you whether or not you're close to your goal.
 ** Tech Setup
 *** Things ToDo
 **** TODO Find details for and setup VPN
@@ -1286,8 +1392,8 @@ The takeaway message for designers is to map out the behavior chains you need --
 Get teeth whitening gel thingy
 *** TODO Book skn
 ** Property
-*** What is the future of architecture
-Quadcopter brick laying, organic 'grown' structures
+Main reason is for own life and to be closer to the action in the
+east of London.
 *** Advice from Steve
 **** Is the deposit refundable or not?
 **** Check for noise at night
@@ -1382,10 +1488,6 @@ The advantage is that the tests are described in plain English and ensures the s
 Conclusion
 
 They're all complementary. Sometimes it's advantageous to focus on one type or to eschew them entirely. The main difference for me is that some of the tests look at things from a programmer's perspective, whereas others use a customer/end user focus.
-** Clojure MindMap 
-
-  Source: [2013-08-01 Thu], [[http://www.littlebrotherfoundation.org/wp-content/uploads/2012/09/clojure.png][clojure.png (PNG Image, 3500×3783 pixels)]]
-
 ** 10 Tips for Sales on Websites from PayPal
 Two of the biggest factors in success for online retailers are:
 

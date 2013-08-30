@@ -106,11 +106,8 @@ directory and insert a link to this file."
 (setq-default indent-tabs-mode nil)
 
 ;; Smart tabs
-(require 'smart-tabs-mode)
-(smart-tabs-insinuate 'python)
-(add-hook 'python-mode-common-hook
-    (lambda () (setq indent-tabs-mode f)))
-
+;; (require 'smart-tabs-mode)
+;; (smart-tabs-insinuate 'python)
 
 
 (custom-set-variables
@@ -265,6 +262,15 @@ directory and insert a link to this file."
 (require 'package)
 (add-to-list 'package-archives
     '("marmalade" . "http://marmalade-repo.org/packages/"))
+(add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
+
+;; -*- emacs-lisp -*-
+(unless package-archive-contents    ;; Refresh the packages descriptions
+  (package-refresh-contents))
+(setq package-load-list '(all))     ;; List of packages to load
+(unless (package-installed-p 'org)  ;; Make sure the Org package is
+  (package-install 'org))           ;; installed, install it if not
+
 (package-initialize)
 
 (defvar my-packages '(
@@ -289,7 +295,6 @@ directory and insert a link to this file."
                       multi-term
                       simple-httpd
                       elpy
-                      org
                       htmlize
                       ))
 
@@ -328,7 +333,7 @@ directory and insert a link to this file."
 (require 'nrepl)
 ;; Configure nrepl.el
 (setq nrepl-hide-special-buffers t)
-(setq nrepl-popup-stacktraces-in-repl t)
+(setq nrepl-popup-stacktraces-in-repl nil)
 (setq nrepl-history-file "~/.emacs.d/nrepl-history")
 (setq nrepl-popup-stacktraces nil)
  
@@ -569,3 +574,27 @@ directory and insert a link to this file."
 ;; Elpy Python toolkit
 (package-initialize)
 (elpy-enable)
+
+;; (setq flymake-warning-re "^W[0-9]") 
+;; (setq python-check-command "flake8")
+
+(defadvice flymake-parse-line (after elpy-flymake-parse-line (line)
+                                     activate compile)
+  "Advise flymake-parse-line to understand pep8/flake8 warnings"
+  ;; pep8 says "W291 trailing whitespace" for warnings
+  (let ((err-file (flymake-ler-file ad-return-value))
+        (err-text (flymake-ler-text ad-return-value)))
+    (if (and (string-match "\.py" err-file)
+             (string-match "^W[0-9]" err-text))
+        (setq ad-return-value
+              (flymake-ler-make-ler err-file
+                                    (flymake-ler-line ad-return-value)
+                                    "w"
+                                    err-text
+                                    (flymake-ler-full-file ad-return-value))))))
+
+(add-hook 'python-mode-hook
+      (lambda ()
+        (setq indent-tabs-mode nil)
+        (setq tab-width 4)
+        (setq python-indent 4)))

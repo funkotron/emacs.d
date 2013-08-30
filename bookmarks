@@ -4,9 +4,9 @@
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-refile-last-stored"
  (filename . "~/Dropbox/org/index.org")
- (front-context-string . "** TODO Make an ")
- (rear-context-string . "d, manager etc.\n")
- (position . 468))
+ (front-context-string . "** Clojure MindM")
+ (rear-context-string . "(c) DEFERRED(f)\n")
+ (position . 61313))
 ("org-capture-last-stored"
  (filename . "~/Dropbox/org/index.org")
  (front-context-string . "** Clojure MindM")
