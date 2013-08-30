@@ -284,6 +284,7 @@ directory and insert a link to this file."
                       clojure-mode
                       clojure-test-mode
                       nrepl
+                      auto-complete
                       ac-nrepl
                       nrepl-ritz
                       rainbow-delimiters
