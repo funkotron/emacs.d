@@ -250,14 +250,7 @@ directory and insert a link to this file."
 
 (global-set-key (kbd "C-<RET>") 'org-insert-heading-respect-content)
 
-;; Org-sync
-;;(add-to-list 'load-path "~/.emacs.d/org-sync")
-;;(add-to-list 'load-path "~/.emacs.d/org-element")
-;;(mapc 'load
-;;            '("org-element" "os" "os-bb" "os-github" "os-rmine"))
 
-;;(setq os-github-auth (cons "funkotron" "pass"))
-;;
 
 (require 'package)
 (add-to-list 'package-archives
@@ -268,8 +261,8 @@ directory and insert a link to this file."
 (unless package-archive-contents    ;; Refresh the packages descriptions
   (package-refresh-contents))
 (setq package-load-list '(all))     ;; List of packages to load
-(unless (package-installed-p 'org)  ;; Make sure the Org package is
-  (package-install 'org))           ;; installed, install it if not
+(unless (package-installed-p 'org-plus-contrib)  ;; Make sure the Org package is
+  (package-install 'org-plus-contrib))           ;; installed, install it if not
 
 (package-initialize)
 
@@ -501,6 +494,11 @@ directory and insert a link to this file."
         ;; ... more templates here ...
         )))
 
+;; Org time tracking clock
+(setq org-clock-persist 'history)
+(org-clock-persistence-insinuate)
+
+
 ;; Set wrap commands like M-( which wraps brackets for squareones and
 ;; quotes
 (global-set-key (kbd "M-[") 'insert-pair)
@@ -599,3 +597,10 @@ directory and insert a link to this file."
         (setq indent-tabs-mode nil)
         (setq tab-width 4)
         (setq python-indent 4)))
+
+
+;; Org-sync
+(add-to-list 'load-path "~/.emacs.d/org-sync")
+;;(add-to-list 'load-path "~/.emacs.d/org-element")
+(mapc 'load
+           '("org-element" "os" "os-bb" "os-github" "os-rmine"))

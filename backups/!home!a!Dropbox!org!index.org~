@@ -1,7 +1,8 @@
 * Todo
-** DONE Add maya to the itunes connect profile and check any others added
-CLOSED: [2013-08-29 Thu 13:54]
-*** <2013-08-23 Fri> Waiting on rest of the test users to register devices on testflight
+** TODO Get motorbike stuff from Burley
+** STARTED Go to the harbor club to gym & swim every day in the morning 
+** TODO Invoice Laurence
+DEADLINE: <2013-10-01 Tue>
 ** STARTED Write some blogposts in orgmode (export as markdown to pelican)
 *** TODO Create teaser videos on blog and full how to's on bitcast.io
 ** TODO Mailchimp integration for ReelAPI and ReelSurvey
@@ -27,7 +28,6 @@ Make Tree.io a webdev agency
 Commit from AWS then mod code locally
 ** STARTED Ask rita for photo to scanscanner may be unplugged
 ** TODO book dentist
-** TODO book gp
 ** STARTED Complete Pedestal App Tutorial
 ** TODO Cancel 3 contract
 ** TODO Cancel iPad contract
@@ -36,10 +36,29 @@ Commit from AWS then mod code locally
      Ping servers
 * Projects
 ** Tree.io
+*** TODO Begin re-design of marketing site with mockups (Github photoshop style)
+*** TODO Investigate payment methods (gocardless or stripe or paypal)
 *** Blog posts
 **** Docker install
-**** Django 1.5 upgrade
+***** Download docker
+***** Run script
+***** Changing the root ssh password
+***** Changing for a separate Postgresql Database
+***** DNS, Routing
+***** Upgrades
 **** Case studies
+**** Enterprise Edition (vs. Community Edition)
+***** UI Upgrades
+***** Support
+***** Included Mail server setup
+***** Time tracking views
+***** Sales updates
+**** Module market
+***** Marketing module
+****** A/B tracking
+****** Click tracking
+****** Session recording
+****** Mass mailing
 *** STARTED Move evergreen into treeio
 *** STARTED Create Plan and complete Client model
 **** payment history
@@ -110,143 +129,11 @@ CLOSED: [2013-07-20 Sat 12:56]
 CLOSED: [2013-08-07 Wed 14:04]
 *** TODO Write blog updates about new language support (Chinese, Brazilian Portugese and French)
 **** TODO Also send these to the mailing list
-** Game
-*** Inspiration
-**** Worms
-**** C&C RA
-**** Warcraft 2
-**** Commander Keen
-**** RAF Flying Game
-**** Atari Box Pacman-esque 2player Arcade Swag Game
-**** GTA2
-**** Drugwars
-**** Mario
-**** Toe Jam & Earl
-**** Myst
-**** Stocks Investment
-*** Game that develops relationships via metaphorical character
-Tamagotchi style interaction of players - Alter ego, story and catharsis.
-** Memeplex.io
-*** Introduction
-The more like a formal induction the better the results can expected
-to be, but we need to ensure this does not make the app less intuitive
-or accessible.
-*** TODO Read BJ Foggs book on Kindle
-*** TODO Read [[file:~/Dropbox/research/Persuasive_Advertising.pdf][Persuasive Advertising]]
-*** TODO Read [[file:~/Dropbox/research/Advances_in_Advertising_Research.pdf][Advances in Advertising Research]]
-*** TODO Create a system architecture overview
-*** Building a small all-stars team
-**** Psych grad / research student
-**** Business specialist
-**** Designer
-**** Developer / DevOps
-*** Choosing hard problems to solve
-**** Measuring & altering state
-**** Recording & Changing associations
-**** Changing thoughts, perceptions, beliefs and habits
-**** Anxieties, phobias, addictions, lack of motivation
-**** Do this in an unobtrusive, engaging and measurably effective way
-*** Association
-We can change our associations using visual and auditory responses
-which link an experience to another one. This can be used to do many
-things. At it's most basic we can arouse a positive affect and then
-associate the desired meme by displaying them together.
-**** Advertising affects us on a daily basis, why not create our own adverts for ourselves to help us lead a better life?
-***** “Drink Coca-cola, Eat popcorn” -> James Vicary (1957)
-***** McDonalds subliminal on youtube http://www.youtube.com/watch?v=LMzbwa6PvEE
-**** learn
-**** memorise
-**** supermemo / anki memory queue algorithm
-**** change the way we feel about something
-**** change what something means to us
-**** forget something
-**** program a complex set of tasks or behaviours
-in it's more advanced forms classical conditioning can be used to
-build up to complex procedures. in reality this is better done
-within the framework of a story or metaphor.
-*** Categorisation
-Using subliminal motor responses we can measure the categorisation of
-a given meme (experience / memory / concept). An example for stopping
-smoking would be how closely smoking is categorised with fun,
-drinking, socialising, certain times of the day, certain places,
-health, family, money, their identity.
-**** Priming
-Priming has a positive effect, so categorising non-subliminally first
-is recommended.
-http://link.springer.com/article/10.3758%2FBF03196262?LI=true#page-1
-**** Changing
-***** Revivification / focus on meme
-***** feedback echo
-***** cognitive overload (infinite possibilities)
-***** association
-***** suggestion
-*** Focus training
-Attention is the key to learning. By using a variety of techniques we
-can change the internal state of the body and mind to better enable it
-to focus and absorb new information.
-**** Over stimulating
-**** Under stimulating
-**** Fight or Flight response
-**** Bucha effect
-**** Blinkenlights
-**** Binaural beats
-**** Isochronic tones
-**** Fractionation
-**** Feedback loops
-***** Bio-feedback
-****** EEG
-****** ECG
-****** Galvanic Response
-***** Key press reaction time (ideomotor depth scale)
-**** Suggestion
-**** Inductions
-**** Magic Room effect
-**** Belief and expectancy
-*** Suggestions
-**** Direct Suggestion
-**** Indirect Suggestion
-**** Meta Suggestion
-*** Emotion
-**** Revification
-**** Piggy backing on existing emotion
-***** OpenCV Face Rec http://bit.ly/YpNMPf
-***** Sentiment analysis of typed text
-***** Keywords in typed text
-*** Story
-**** Context and Framing
-**** Emotional rollercoaster
-**** Hard loop and soft loop breaks
-*** Visualisation
-**** How to best represent the meme as a symbol + sound?
-**** Symbols as 3D assets
-***** Changes in Time (looped as a function of feedback response)
-***** Colour
-***** Shape
-***** Size
-***** Distance
-***** Quantity
-***** Inetraction with other symbols
-*** API
-**** Option to send to an API
-**** Paid service
-**** Google Glass
-*** Metrics
-Provide positive news. E.g. 3 days in a row / 30% better association
-**** D3.JS
-**** Processing.js
-**** Matplotlib
-*** Goals
-**** Backtracking
-**** Share with others (variants on stop smoking)
-*** Adventure and Gamification
-**** Character
-***** Like this person, don't like this person (facebook)
-**** Instant feedback loop
-**** Adding 'juice' to the goal by adding benefits
-*** Wake-up function (TTS) mobile + sleep suggestion
 ** How Reel Is Your Love
-*** TODO Make sure both players have seen the same films
-*** TODO Complete the survey site
+*** DONE Make sure both players have seen the same films
+CLOSED: [2013-09-04 Wed 00:46]
+*** DONE Complete the survey site
+CLOSED: [2013-09-04 Wed 00:46]
 **** TODO Check why results of 0 sent before raj took survey
 **** DONE Include ethnicities
 CLOSED: [2013-08-05 Mon 14:48]
@@ -263,6 +150,7 @@ CLOSED: [2013-08-07 Wed 16:29]
 **** TODO Set up Alembic database migrations
 http://mattupstate.com/python/databases/2012/11/15/database-migrations-with-alembic-sqlalchemy-and-flask.html
 *** TODO Background (celery) Push notification sending and other tasks
+*** TODO Send push notifications on new sets available
 *** TODO Create correctly sized facebook buttons (on mac pro in OSX)
 The recommended movie and the best match can now be posted to the user's wall on Facebook. As for the share button, I would need these final sizes: 75x18 and 150x36. The current button has a white background color which looks quite strange. I guess the background color needs to be transparent.
 Also get the tab icons
@@ -441,6 +329,140 @@ CLOSED: [2012-11-28 Wed 18:41]
 
 Ideally once a video has been watched by accessing from a list or it
 has been played using auto play, it won't be auto played in future.
+** Game
+*** Inspiration
+**** Worms
+**** C&C RA
+**** Warcraft 2
+**** Commander Keen
+**** RAF Flying Game
+**** Atari Box Pacman-esque 2player Arcade Swag Game
+**** GTA2
+**** Drugwars
+**** Mario
+**** Toe Jam & Earl
+**** Myst
+**** Stocks Investment
+*** Game that develops relationships via metaphorical character
+Tamagotchi style interaction of players - Alter ego, story and catharsis.
+** Memeplex.io
+*** Introduction
+The more like a formal induction the better the results can expected
+to be, but we need to ensure this does not make the app less intuitive
+or accessible.
+*** TODO Read BJ Foggs book on Kindle
+*** TODO Read [[file:~/Dropbox/research/Persuasive_Advertising.pdf][Persuasive Advertising]]
+*** TODO Read [[file:~/Dropbox/research/Advances_in_Advertising_Research.pdf][Advances in Advertising Research]]
+*** TODO Create a system architecture overview
+*** Building a small all-stars team
+**** Psych grad / research student
+**** Business specialist
+**** Designer
+**** Developer / DevOps
+*** Choosing hard problems to solve
+**** Measuring & altering state
+**** Recording & Changing associations
+**** Changing thoughts, perceptions, beliefs and habits
+**** Anxieties, phobias, addictions, lack of motivation
+**** Do this in an unobtrusive, engaging and measurably effective way
+*** Association
+We can change our associations using visual and auditory responses
+which link an experience to another one. This can be used to do many
+things. At it's most basic we can arouse a positive affect and then
+associate the desired meme by displaying them together.
+**** Advertising affects us on a daily basis, why not create our own adverts for ourselves to help us lead a better life?
+***** “Drink Coca-cola, Eat popcorn” -> James Vicary (1957)
+***** McDonalds subliminal on youtube http://www.youtube.com/watch?v=LMzbwa6PvEE
+**** learn
+**** memorise
+**** supermemo / anki memory queue algorithm
+**** change the way we feel about something
+**** change what something means to us
+**** forget something
+**** program a complex set of tasks or behaviours
+in it's more advanced forms classical conditioning can be used to
+build up to complex procedures. in reality this is better done
+within the framework of a story or metaphor.
+*** Categorisation
+Using subliminal motor responses we can measure the categorisation of
+a given meme (experience / memory / concept). An example for stopping
+smoking would be how closely smoking is categorised with fun,
+drinking, socialising, certain times of the day, certain places,
+health, family, money, their identity.
+**** Priming
+Priming has a positive effect, so categorising non-subliminally first
+is recommended.
+http://link.springer.com/article/10.3758%2FBF03196262?LI=true#page-1
+**** Changing
+***** Revivification / focus on meme
+***** feedback echo
+***** cognitive overload (infinite possibilities)
+***** association
+***** suggestion
+*** Focus training
+Attention is the key to learning. By using a variety of techniques we
+can change the internal state of the body and mind to better enable it
+to focus and absorb new information.
+**** Over stimulating
+**** Under stimulating
+**** Fight or Flight response
+**** Bucha effect
+**** Blinkenlights
+**** Binaural beats
+**** Isochronic tones
+**** Fractionation
+**** Feedback loops
+***** Bio-feedback
+****** EEG
+****** ECG
+****** Galvanic Response
+***** Key press reaction time (ideomotor depth scale)
+**** Suggestion
+**** Inductions
+**** Magic Room effect
+**** Belief and expectancy
+*** Suggestions
+**** Direct Suggestion
+**** Indirect Suggestion
+**** Meta Suggestion
+*** Emotion
+**** Revification
+**** Piggy backing on existing emotion
+***** OpenCV Face Rec http://bit.ly/YpNMPf
+***** Sentiment analysis of typed text
+***** Keywords in typed text
+*** Story
+**** Context and Framing
+**** Emotional rollercoaster
+**** Hard loop and soft loop breaks
+*** Visualisation
+**** How to best represent the meme as a symbol + sound?
+**** Symbols as 3D assets
+***** Changes in Time (looped as a function of feedback response)
+***** Colour
+***** Shape
+***** Size
+***** Distance
+***** Quantity
+***** Inetraction with other symbols
+*** API
+**** Option to send to an API
+**** Paid service
+**** Google Glass
+*** Metrics
+Provide positive news. E.g. 3 days in a row / 30% better association
+**** D3.JS
+**** Processing.js
+**** Matplotlib
+*** Goals
+**** Backtracking
+**** Share with others (variants on stop smoking)
+*** Adventure and Gamification
+**** Character
+***** Like this person, don't like this person (facebook)
+**** Instant feedback loop
+**** Adding 'juice' to the goal by adding benefits
+*** Wake-up function (TTS) mobile + sleep suggestion
 ** Gold UI
 *** DONE News feed naming
 CLOSED: [2013-08-15 Thu 15:59]
@@ -691,6 +713,12 @@ TRYRETHINK_CONTAINER=$(docker run -d -e HIPACHE_PORT=$HIPACHE_PORT -e REDIS_HOST
 *** Start with Just Tree.io and Quokka, later add more options
 * Journal
 ** Options
+Renting an apartment just DOES NOT make sense when I should be saving
+to buy one. I would like Shoreditch House membership but I can get
+this anyway.. I need to find two existing members to recommend me, I
+remember Aran saying he knew someone, maybe Laurence or Raj will also.
+For the price of a single month's rent I can buy a piaggio that will
+let me travel to the east end if need be in around 20 minutes.
 *** Live in Tregunter
 **** Offpeak harbor
 50% 775 387
@@ -699,15 +727,16 @@ TRYRETHINK_CONTAINER=$(docker run -d -e HIPACHE_PORT=$HIPACHE_PORT -e REDIS_HOST
 1000 + 500 (extras)
 **** Club workspace
 £200 / month
-*** Live in Bezier
+*** Live in East London
+**** http://www.rightmove.co.uk/property-to-rent/property-40378117.html
+250 a week (£1200 a month)
 **** Studio Flat
 £2000 / month
 **** Shoreditch House
 https://www.shoreditchhouse.com/membership
-£700 a year
+£700 a year for all clubs till 30 if join before 27
 **** Club workspace
 £200 / month
-
 ** <2013-08-10 Sat>
 Org babel test with python code block
 

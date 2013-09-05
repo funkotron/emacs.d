@@ -2,7 +2,10 @@
 ;; Automatically generated file!!! DO NOT EDIT!!!
 
 (setq url-cookie-storage
- '((".pastebin.com"
+ '(("marmalade-repo.org"
+  [url-cookie "connect.sid" "r7rzRkuIbLaij7vReZP64dyI.9%2BocsLHvjgQ1jsY2QGdu9OeqC3zUWTJTQ7Mwp36nk14" "Fri, 30 Aug 2013 20:08:49 GMT" "/" "marmalade-repo.org" nil]
+  [url-cookie "httpOnly" nil "Fri, 30 Aug 2013 20:08:49 GMT" "/" "marmalade-repo.org" nil])
+ (".pastebin.com"
   [url-cookie "__cfduid" "d3eb19b54eb07fc9395b9b9b2351470741377209195481" "23-Dec-2019 23:50:00.00 GMT" "/" ".pastebin.com" nil]))
 )
 (setq url-cookie-secure-storage
