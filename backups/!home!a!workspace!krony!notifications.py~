@@ -1,5 +1,0 @@
-from os import environ
-import notifs
-
-url=environ.get('CLOUDAMQP_URL')
-n = notifs.Notifs(url)
