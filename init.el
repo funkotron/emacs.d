@@ -1,4 +1,4 @@
-(menu-bar-mode -1)
+(menu-bar-mode 1)
 (tool-bar-mode -1)
 
 (add-to-list 'load-path "~/.emacs.d/")
@@ -12,7 +12,7 @@
 (require 'ob-clojure)
 (require 'ob-python)
 
-;; (find-file "~/Dropbox/org/index.org")
+(find-file "~/Dropbox/org/index.org")
 ;; (desktop-save-mode 1)
 
 ;; Automatically reload file if changed on disk
@@ -494,8 +494,9 @@ directory and insert a link to this file."
         )))
 
 ;; Org time tracking clock
-(setq org-clock-persist 'history)
-(org-clock-persistence-insinuate)
+;; (setq org-clock-persist 'history)
+;; (org-clock-persistence-insinuate)
+(setq org-clock-persist t)
 
 
 ;; Set wrap commands like M-( which wraps brackets for squareones and
