@@ -570,13 +570,14 @@ directory and insert a link to this file."
   (other-window 1))
 (define-key global-map (kbd "C-x 4 n") 'clone-buffer-and-narrow-to-function) ; or whatever key you prefer
 
-;emacs for python
-(load-file "~/.emacs.d/emacs-for-python/epy-init.el")
-(epy-setup-checker "pyflakes %f")
-(epy-django-snippets)
-(setq skeleton-pair nil) 
-(require 'highlight-indentation)
-(add-hook 'python-mode-hook 'highlight-indentation)
+
+;; Emacs-python
+ (load-file "~/.emacs.d/emacs-for-python/epy-init.el")
+ (epy-setup-checker "pyflakes %f")
+ (epy-django-snippets)
+ (epy-setup-ipython)
+ (require 'highlight-indentation)
+ (add-hook 'python-mode-hook 'highlight-indentation)
 
 (add-hook 'python-mode-hook
       (lambda ()

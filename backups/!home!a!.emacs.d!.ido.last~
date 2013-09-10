@@ -1,0 +1,26 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/a/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/a/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/a/.emacs.d/" (20997 1694) "eshell/" "places" "setup-mu4e.el" ".gitignore" ".mc-lists.el" "emacs-pastebin/" ".smex-items" "projectile-20130615.1831/" "rainbow-delimiters/" "org-element/" "litable/" "setup-secrets.el" "org-8.0.7/" "../" "mu4e/" "nrepl-inspect/" "framemove/" ".ido.last" ".git/" "el-get/" "url/" "elpa/" "resize.el" "tramp" "emacs-color-theme-solarized/" "ac-comphist.dat" "projectile-bookmarks.eld" "nrepl-history" "undo-tree/" "init.el" "auto-save-list/" "etc/" ".emacs.desktop" "1908Isc.jpg" "org-sync/" "./" "secrets.el.gpg" "backups/" "bookmarks")
+
+ ("/home/a/" (20997 1694) ".dmenu_cache" ".gconf/" ".gnome2_private/" ".zcompdump" "perl5/" ".ICEauthority" ".pgadmin3" ".viminfo" "Pictures/" ".bash_profile" ".lein/" ".mozilla/" ".xinitrc" ".recentf" ".Xauthority" "pgadmin.log" ".i3/" ".Xresources" ".gvfs/" ".ssh/" ".Xmodmap" "../" "workspace/" ".cache/" ".gphoto/" ".rvm/" ".Xauthority.PLUW1W" ".local/" ".gnome2/" ".icons/" ".bashrc" ".dropbox-dist/" ".cpan/" "Templates/" ".Xmodmap.crazy" ".fim_history" "Maildir/" ".bash_logout" ".TREEIO_PGLITE_VOLUME_ID" "lib/" "backlightlog" ".macromedia/" ".pki/" ".zsh-update" "Desktop/" ".profile" ".gstreamer-0.10/" ".offlineimap/" ".dbus/" ".wicd/" "bm" "#.zshrc#" "am" ".config/" "Documents/" ".mu/" ".thumbnails/" "Music/" "acpi.log" ".zprofile" ".adobe/" ".bash_history" "Videos/" "Public/" ".gimp-2.8/" ".emacs.d/" ".TREEIO_PGLITE_PWD" ".authinfo" ".dmrc" "bin/" ".gem/" ".offlineimaprc.swp" ".Skype/" ".offlineimaprc" ".cpanm/" "examples.desktop" "boo.ascii" "etc/" ".zsh_history" "treetop.pem" ".gitconfig" "Downloads/" ".vim/" ".zshrc" ".xsession-errors" "Dropbox/" ".dropbox/" ".compiz/" ".xsession-errors.old" "./" ".heroku/" ".m2/" ".gnupg/" ".xbindkeysrc" "hi.py" ".netrc" ".tmux.conf" "treeio.pem" ".fehbg" ".pip/" "fonts/" "submo/" ".lesshst")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
