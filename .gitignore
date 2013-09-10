@@ -1,10 +1,10 @@
 el-get/*
-elpa
-
+elpa/*
 auto-save-list/
 .ido.last*
 .emacs.desktop*
-backups/
+backups/*
+ac-comphist.dat
 .emacs.desktop
 .smex-items
 places
