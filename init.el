@@ -288,7 +288,6 @@ directory and insert a link to this file."
                       s
                       multi-term
                       simple-httpd
-                      elpy
                       htmlize
                       ))
 
@@ -570,27 +569,14 @@ directory and insert a link to this file."
   (other-window 1))
 (define-key global-map (kbd "C-x 4 n") 'clone-buffer-and-narrow-to-function) ; or whatever key you prefer
 
-;; Elpy Python toolkit
-(package-initialize)
-(elpy-enable)
 
-;; (setq flymake-warning-re "^W[0-9]") 
-;; (setq python-check-command "flake8")
-
-(defadvice flymake-parse-line (after elpy-flymake-parse-line (line)
-                                     activate compile)
-  "Advise flymake-parse-line to understand pep8/flake8 warnings"
-  ;; pep8 says "W291 trailing whitespace" for warnings
-  (let ((err-file (flymake-ler-file ad-return-value))
-        (err-text (flymake-ler-text ad-return-value)))
-    (if (and (string-match "\.py" err-file)
-             (string-match "^W[0-9]" err-text))
-        (setq ad-return-value
-              (flymake-ler-make-ler err-file
-                                    (flymake-ler-line ad-return-value)
-                                    "w"
-                                    err-text
-                                    (flymake-ler-full-file ad-return-value))))))
+;; Emacs-python
+ (load-file "~/.emacs.d/emacs-for-python/epy-init.el")
+ (epy-setup-checker "pyflakes %f")
+ (epy-django-snippets)
+ (epy-setup-ipython)
+ (require 'highlight-indentation)
+ (add-hook 'python-mode-hook 'highlight-indentation)
 
 (add-hook 'python-mode-hook
       (lambda ()
